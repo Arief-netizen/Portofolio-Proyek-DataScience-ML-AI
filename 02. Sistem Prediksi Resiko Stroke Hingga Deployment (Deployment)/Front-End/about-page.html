@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Tentang Kami</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="{{ url_for('static', filename='img/favicon.ico') }}"
+    />
+  </head>
+  <body>
+    <app-bar></app-bar>
+
+    <div class="section">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card profile-item">
+            <img
+              style="height: 350px"
+              class="card-img-top"
+              alt="gambar"
+              src="{{url_for('static', filename='img/arief.png')}}"
+            />
+            <div class="card-body">
+              <h2>Imam Arief Al Baihaqy</h2>
+
+              <h5>ML Engineer</h5>
+              <div class="person-univ">
+                <i class="fa fa-child"></i>
+                <p>Manajemen Informatika, Universitas Negeri Surabaya</p>
+              </div>
+              <div class="person-univ">
+                <i class="fa fa-linkedin-square" style="font-size: 25px"></i>
+                <p>
+                  <a
+                    style="text-decoration: none; color: #2b332c"
+                    href="https://www.linkedin.com/in/ariefbaihaqy"
+                    >Imam Arief Al Baihaqy</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card profile-item">
+            <img
+              style="height: 350px"
+              class="card-img-top"
+              alt="gambar"
+              src="{{url_for('static', filename='img/rosy.jpg')}}"
+            />
+            <div class="card-body">
+              <h2>Rosyiidah Hasna</h2>
+
+              <h5>FrontEnd Developer</h5>
+              <div class="person-univ">
+                <i class="fa fa-child"></i>
+                <p>
+                  Teknik Informatika, Politeknik Elektronika Negeri Surabaya
+                </p>
+              </div>
+              <div class="person-univ">
+                <i class="fa fa-linkedin-square" style="font-size: 25px"></i>
+                <p>
+                  <a
+                    style="text-decoration: none; color: #2b332c"
+                    href="https://www.linkedin.com/in/syiidahasnaa/"
+                    >Rosyiidah Hasnaa</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card profile-item">
+            <img
+              style="height: 350px"
+              class="card-img-top"
+              alt="gambar"
+              src="{{url_for('static', filename='img/Edo.jpg')}}"
+            />
+            <div class="card-body">
+              <h2>Nikolas Edo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+              <h5>FrontEnd Developer</h5>
+              <br />
+              <div class="person-univ">
+                <i class="fa fa-child"></i>
+                <p>Biologi, Universitas Airlangga</p>
+              </div>
+              <div class="person-univ">
+                <i class="fa fa-linkedin-square" style="font-size: 25px"></i>
+                <p>
+                  <a
+                    style="text-decoration: none; color: #2b332c"
+                    href="https://www.linkedin.com/in/nikolas-edo-3918941a6"
+                    >Nikolas Edo</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="card profile-item">
+            <img
+              style="height: 350px"
+              class="card-img-top"
+              alt="gambar"
+              src="{{url_for('static', filename='img/erin.png')}}"
+            />
+            <div class="card-body">
+              <h2>Erin Nur Fatimah</h2>
+
+              <h5>ML Engineer</h5>
+              <div class="person-univ">
+                <i class="fa fa-child"></i>
+                <p>
+                  Manajemen Informatika, Universitas Teknologi Digital indonesia
+                </p>
+              </div>
+              <div class="person-univ">
+                <i class="fa fa-linkedin-square" style="font-size: 25px"></i>
+                <p>
+                  <a
+                    style="text-decoration: none; color: #2b332c"
+                    href="https://www.linkedin.com/in/erin-nur-fatimah-039b17255/"
+                    >Erin Nur Fatimah</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <footer-healthcare></footer-healthcare>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/5888c925db.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    {% include 'scripts-js.html' %}
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <title>Deteksi Masker</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/img/favicon.ico') }}">
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light" id="navbar">
+      <span class="navbar-brand nav-logo" style="color: #00aaa6">MaskCare</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav" style="text-align:right">
+          <li class="nav-item">
+            <a id="nav-beranda" class="nav-link active" href="/Beranda">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a href="/Deteksi-Masker" id="nav-input" class="nav-link active">Deteksi Masker</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-tentang-kami" class="nav-link active" href="/About">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div id="button-container">
+      <a style="text-decoration:none;" class="text-white"><button id="toggle-button" style="padding: 30px;">Mulai Deteksi Masker</button></a>
+    </div>
+    <div id="video-container" style="display: none;">
+      <!-- sintaks template Flask yang menghasilkan URL yang mengarah ke route Flask (app.py) dengan nama "video_feed"-->
+      <img id="video-feed" src="{{ url_for('video_feed') }}"> 
+    </div>
+    
+    <footer class="footer">
+      <div class="inner-footer">
+        <div class="d-md-flex flex-md-row text-white">
+          <div class="sub-section-footer">
+            <span class="logo-white">MaskCare</span>
+            <p class="pb-3 pt-2"><i class="fa-sharp fa-solid fa-location-dot"></i> Surabaya, Indonesia</p>
+          </div>
+          <div class="sub-section-footer" >
+            <p class="pb-2 pt-2" style="font-weight: 700">LAYANAN</p>
+            <p class="pb-2"><a style="text-decoration:none;"class="text-white"href="/Beranda">Beranda</a></p>
+            <p class="pb-2"><a style="text-decoration:none;"class="text-white"href="/Deteksi-Masker">Deteksi Masker</a></p>
+            <p class="pb-2"><a style="text-decoration:none;"class="text-white"href="/About">About</a></p>
+          </div>
+          <div class="sub-section-footer" >
+            <p class="pb-2 pt-2" style="font-weight: 700">HUBUNGI SAYA</p>
+            <p class="pb-2"><a style="text-decoration:none;" class="text-white"href="https://www.linkedin.com/in/ariefbaihaqy"><i class="fa fa-linkedin-square" style="font-size: 15px;"></i> linkedin.com/in/ariefbaihaqy</a></p>
+            <p class="pb-2"><a style="text-decoration:none;" class="text-white"href="mailto:ariefbaihaqy.19006@gmail.com"><i class="fa fa-envelope" style="font-size: 15px"></i> ariefbaihaqy.19006@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <p class="text-white text-center pt-3">Copyright &#169; 2023 - MaskCare. All Right Reserved</p>
+    </footer>
+    
+    <script src="{{ url_for('static', filename='assets/javascript/video-feed.js') }}"></script>
+  </body>
+</html>

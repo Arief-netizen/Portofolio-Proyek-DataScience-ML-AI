@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#navbar {
+    background-color: #ffffff;
+    padding: 10px 100px 10px 100px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nav-logo {
+    font-weight: 800;
+    font-size: 40px;
+    margin-left: 0px;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 20px;
+    color: #eeeeee;
+}
+
+footer {
+    background-color: #007d7eed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 0 !important;
+}
+
+.active {
+    color: #041562;
+}
+
+hr {
+    border-color: #ffffff;
+}
+
+.logo-white {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+#subtitle {
+    color: #00aaa6;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.description {
+    color: #0e0e0e;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.description-about {
+    color: #0e0e0e;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: justify;
+    min-height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section {
+    padding: 50px 100px 50px 100px;
+}
+
+.section-about {
+    padding: 20px 50px 0px 50px;
+}
+
+.sub-section {
+    width: 100%;
+}
+
+.sub-section-about {
+    width: 100%;
+    padding-left: 50px;
+}
+
+.sub-section-profil {
+    width: 100%;
+
+    padding: 0px 0px 0px 305px;
+}
+
+.sub-section-footer {
+    width: 100%;
+}
+
+button {
+    background: #00aaa6;
+    border-radius: 5px;
+    padding: 7px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.layanan {
+    background: #eeeeee;
+}
+
+.sub-section > img {
+    width: 75%;
+}
+
+.card-title {
+    font-size: 18px;
+    color: #00aaa6;
+    font-weight: 600;
+}
+
+.card-title-about {
+    font-size: 16px;
+    color: #041562;
+    font-weight: 400;
+}
+
+.card-description {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.card-button {
+    background: #00aaa6;
+    border-radius: 5px;
+    padding: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    width: 75%;
+}
+
+.card-img {
+    width: 70%;
+    padding: 10px;
+}
+
+.item-layanan {
+    border-radius: 10px;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 350px;
+}
+
+.item-layanan-about {
+    border-radius: 10px;
+    width: 155%;
+    min-height: 485px;
+}
+
+.item-layanan-profil {
+    border-radius: 10px;
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 489px;
+}
+
+#video-feed {
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+#button-container {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.form-control {
+    border-color: #11468f;
+    height: 50px;
+}
+
+a {
+    color: #041562;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.person {
+    width: 100%;
+    padding: 20px 35px;
+    background: white;
+    margin: 15px;
+    overflow: hidden;
+    box-shadow: 0 7px 7px -5px black;
+    align-items: flex-start;
+    border-radius: 4px;
+}
+
+
+.person-univ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.person-univ i {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.inner-footer {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+    #subtitle {
+        font-size: 30px;
+    }
+
+    .sub-section > img {
+        width: 100%;
+    }
+
+    .item-layanan-about {
+        border-radius: 10px;
+        width: 100%;
+        min-height: 485px;
+    }
+
+    .item-layanan-profil {
+        border-radius: 10px;
+        min-width: 100%;
+        min-height: 489px;
+    }
+
+    .sub-section {
+        text-align: center;
+    }
+
+    .section {
+        padding: 30px 30px 30px 30px;
+    }
+    
+    #navbar {
+        background-color: #ffffff;
+        padding: 10px 30px 10px 30px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .nav-logo {
+        font-weight: 800;
+        font-size: 30px;
+        margin-left: 0px;
+    }
+
+    .logo-white {
+        font-size: 30px;
+    }
+
+    .inner-footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    footer {
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 0 !important;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+} 
+
+@media screen and (width<1050px) {
+    .item-layanan-profil {
+        border-radius: 10px;
+        min-width: 100%;
+    }
+}
+
+@media screen and (width<975px) {
+    .item-layanan-profil {
+        border-radius: 10px;
+        min-width: 100%;
+    }
+}
