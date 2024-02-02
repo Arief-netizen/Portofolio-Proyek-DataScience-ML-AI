@@ -15,9 +15,9 @@ streamlit run DASHBOARD.py
 
 # Analisis Data Brazilian E-Commerce
 
-Proyek ini bertujuan untuk menganalisis dataset Brazilian E-Commerce Public Dataset yang tersedia di Kaggle. Dataset ini mencakup berbagai informasi terkait transaksi e-commerce di Brasil, termasuk informasi pelanggan, produk, pesanan, pembayaran, dan lokasi geografis. Berikut adalah beberapa pertanyaan bisnis yang dijawab melalui analisis data:
+Proyek ini bertujuan untuk menganalisis dataset [Brazilian E-Commerce Public Dataset] (https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) dan kemudian dilakukan deployment berbasis website menggunakan streamlit. Dataset ini mencakup berbagai informasi terkait transaksi e-commerce di Brazil, termasuk informasi pelanggan, produk, pesanan, pembayaran, dan lokasi geografis. Berikut adalah beberapa pertanyaan bisnis yang dijawab melalui analisis data:
 
-1. **Segmentasi Pasar Berdasarkan Wilayah Geografis**: Analisis dilakukan untuk memahami distribusi pelanggan berdasarkan kota-kota di Brasil dan mengidentifikasi area dengan potensi pasar yang tinggi.
+1. **Segmentasi Pasar Berdasarkan Wilayah Geografis**: Analisis dilakukan untuk memahami distribusi pelanggan berdasarkan kota-kota di Brazil dan mengidentifikasi area dengan potensi pasar yang tinggi.
 
 2. **Kategori Barang yang Paling Sering Dibeli**: Penelitian ini memfokuskan pada kategori produk yang paling sering dibeli oleh pelanggan, serta memberikan solusi terhadap kategori produk yang jarang dibeli.
 
@@ -25,6 +25,6 @@ Proyek ini bertujuan untuk menganalisis dataset Brazilian E-Commerce Public Data
 
 4. **Preferensi Tipe Pembayaran Pelanggan**: Melalui analisis ini, dicari tahu tipe pembayaran apa yang paling sering atau disukai oleh pelanggan saat melakukan transaksi, serta bagaimana meningkatkan layanan pembayaran agar pelanggan merasa lebih nyaman.
 
-Proyek ini melibatkan langkah-langkah seperti mengumpulkan data dari sumber eksternal, melakukan proses data wrangling untuk membersihkan dan mempersiapkan data, menjalankan analisis eksploratif data (EDA) untuk memahami pola-pola dalam dataset, dan menyajikan temuan melalui visualisasi data serta penjelasan terperinci.
+Proyek ini melibatkan langkah-langkah seperti melakukan proses data wrangling untuk membersihkan dan mempersiapkan data, menjalankan analisis eksploratif data (EDA) untuk memahami pola-pola dalam dataset, dan menyajikan temuan melalui visualisasi data serta penjelasan terperinci.
 
 Untuk informasi lebih lanjut, Anda dapat mengunjungi notebook Colab yang terlampir dalam proyek ini atau melihat dataset asli di [Kaggle Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
