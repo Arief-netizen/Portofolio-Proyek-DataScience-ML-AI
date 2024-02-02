@@ -6,7 +6,7 @@
 - Nikolas Edo (Front End Developer)
 
 ### Detail
-**Paket Pembelajaran :** Pengembang Machine Learning dan Front-End Web
+**Learning Path :** Pengembang Machine Learning dan Front-End Web
 
 **Tema yang dipilih :** Solusi Terkait Kesehatan dan Kesejahteraan Lingkungan
 
