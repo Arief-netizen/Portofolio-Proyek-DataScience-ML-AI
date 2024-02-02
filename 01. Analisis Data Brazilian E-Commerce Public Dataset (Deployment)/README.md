@@ -100,7 +100,7 @@ Dari hasil analisis, diketahui bahwa penggunaan kartu kredit mendominasi tipe pe
 
 Hasil explanatory analysis ini memberikan pemahaman mendalam tentang perilaku pelanggan dan peluang pengembangan bisnis yang dapat dioptimalkan.
 
-Proyek ini memberikan pandangan menyeluruh terhadap Brazilian E-Commerce Public Dataset dan memberikan dasar untuk pengambilan keputusan bisnis yang lebih baik. Seluruh kode dan analisis dapat ditemukan dalam file notebook [Analisis Data Brazilian E-Commerce Public Dataset.ipynb](https://colab.research.google.com/drive/1UHxlt5_OE1BSqRmJTsWcp9nVWyRI2G9T).
+Proyek ini memberikan pandangan menyeluruh terhadap Brazilian E-Commerce Public Dataset dan memberikan dasar untuk pengambilan keputusan bisnis yang lebih baik. Seluruh kode dan analisis dapat ditemukan dalam file notebook [Analisis Data Brazilian E-Commerce Public Dataset.ipynb](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/blob/41de63bd8189edbac38d8e98836b8f469e856d00/01.%20Analisis%20Data%20Brazilian%20E-Commerce%20Public%20Dataset%20(Deployment)/Notebook/Analisis%20Data%20Brazilian%20E-Commerce%20Public%20Dataset.ipynb).
 
 
 ## Setup Environment Dashboard Analisis Data Brazilian E-Commerce
