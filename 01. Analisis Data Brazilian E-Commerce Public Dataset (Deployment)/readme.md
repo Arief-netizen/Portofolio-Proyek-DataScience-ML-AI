@@ -4,7 +4,7 @@ Proyek ini bertujuan untuk menganalisis dataset [Brazilian E-Commerce Public Dat
 
 1. **Segmentasi Pasar Berdasarkan Wilayah Geografis**: Analisis dilakukan untuk memahami distribusi pelanggan berdasarkan kota-kota di Brazil dan mengidentifikasi area dengan potensi pasar yang tinggi.
 
-2. **Kategori Barang yang Paling Sering Dibeli**: Penelitian ini memfokuskan pada kategori produk yang paling sering dibeli oleh pelanggan, serta memberikan solusi terhadap kategori produk yang jarang dibeli.
+2. **Kategori Barang yang Paling Sering Dibeli**: Analisis difokuskan pada kategori produk yang paling sering dibeli oleh pelanggan, serta memberikan solusi terhadap kategori produk yang jarang dibeli.
 
 3. **Tren Pembelian Berdasarkan Bulan**: Analisis dilakukan untuk mengidentifikasi bulan mana yang mengalami peningkatan pembelian tertinggi oleh pelanggan dan faktor-faktor apa yang mungkin mempengaruhi peningkatan tersebut.
 
