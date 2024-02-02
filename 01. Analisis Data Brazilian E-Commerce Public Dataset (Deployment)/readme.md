@@ -1,5 +1,5 @@
 # Analisis Data Brazilian E-Commerce Public Dataset
-![Cover-Brazilian-Ecommerce](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/224bfedb-86ec-407b-b2ea-528e09762069)
+![Cover-Brazilian-Ecommerce](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/aff85630-41be-4ad4-ac08-5c4b19e6dae2)
 
 **Tujuan Proyek:**
 Proyek ini bertujuan untuk melakukan analisis mendalam terhadap [Brazilian E-Commerce Public Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) hingga website deployment menggunakan streamlit. Data ini mencakup informasi seputar pelanggan, produk, pesanan, pembayaran, dan lokasi geografis. Analisis ini dimaksudkan untuk memberikan wawasan yang berharga dalam mendukung pengambilan keputusan bisnis.
