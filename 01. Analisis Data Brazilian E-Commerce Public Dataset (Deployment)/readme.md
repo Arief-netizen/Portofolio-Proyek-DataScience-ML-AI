@@ -1,18 +1,3 @@
-# Dashboard Analisis Data Brazilian E-Commerce Public Dataset
-
-## Setup Environment
-```
-conda create --name main-ds python=3.9
-conda activate main-ds
-pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
-```
-
-## Menjalankan Dashboard Streamlit App
-```
-cd Dashboard
-streamlit run DASHBOARD.py
-```
-
 # Analisis Data Brazilian E-Commerce
 
 Proyek ini bertujuan untuk menganalisis dataset [Brazilian E-Commerce Public Dataset] (https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) dan kemudian dilakukan deployment berbasis website menggunakan streamlit. Dataset ini mencakup berbagai informasi terkait transaksi e-commerce di Brazil, termasuk informasi pelanggan, produk, pesanan, pembayaran, dan lokasi geografis. Berikut adalah beberapa pertanyaan bisnis yang dijawab melalui analisis data:
@@ -28,3 +13,16 @@ Proyek ini bertujuan untuk menganalisis dataset [Brazilian E-Commerce Public Dat
 Proyek ini melibatkan langkah-langkah seperti melakukan proses data wrangling untuk membersihkan dan mempersiapkan data, menjalankan analisis eksploratif data (EDA) untuk memahami pola-pola dalam dataset, dan menyajikan temuan melalui visualisasi data serta penjelasan terperinci.
 
 Untuk informasi lebih lanjut, Anda dapat mengunjungi notebook Colab yang terlampir dalam proyek ini atau melihat dataset asli di [Kaggle Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
+
+## Setup Environment Dashboard Analisis Data Brazilian E-Commerce Public Dataset
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+```
+
+## Menjalankan Dashboard Streamlit App
+```
+cd Dashboard
+streamlit run DASHBOARD.py
+```
