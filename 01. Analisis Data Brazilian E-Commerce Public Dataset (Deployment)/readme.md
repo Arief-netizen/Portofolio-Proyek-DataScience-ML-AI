@@ -1,6 +1,6 @@
 # Analisis Data Brazilian E-Commerce
 
-Proyek ini bertujuan untuk menganalisis dataset [Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) dan kemudian dilakukan deployment berbasis website menggunakan streamlit. Dataset ini mencakup berbagai informasi terkait transaksi e-commerce di Brazil, termasuk informasi pelanggan, produk, pesanan, pembayaran, dan lokasi geografis. Berikut adalah beberapa pertanyaan bisnis yang dijawab melalui analisis data:
+Proyek ini bertujuan untuk menganalisis dataset [Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) hingga dilakukan deployment berbasis website menggunakan streamlit. Dataset ini mencakup berbagai informasi terkait transaksi e-commerce di Brazil, termasuk informasi pelanggan, produk, pesanan, pembayaran, dan lokasi geografis. Berikut adalah beberapa pertanyaan bisnis yang dijawab melalui analisis data:
 
 1. **Segmentasi Pasar Berdasarkan Wilayah Geografis**: Analisis dilakukan untuk memahami distribusi pelanggan berdasarkan kota-kota di Brazil dan mengidentifikasi area dengan potensi pasar yang tinggi.
 
