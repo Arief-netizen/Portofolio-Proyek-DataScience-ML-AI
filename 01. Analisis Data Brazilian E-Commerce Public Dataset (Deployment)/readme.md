@@ -1,7 +1,7 @@
 # Analisis Data Brazilian E-Commerce Public Dataset
 
 **Tujuan Proyek:**
-Proyek ini bertujuan untuk melakukan analisis mendalam terhadap Brazilian E-Commerce Public Dataset hingga website deployment menggunakan streamlit. Data ini mencakup informasi seputar pelanggan, produk, pesanan, pembayaran, dan lokasi geografis. Analisis ini dimaksudkan untuk memberikan wawasan yang berharga dalam mendukung pengambilan keputusan bisnis.
+Proyek ini bertujuan untuk melakukan analisis mendalam terhadap [Brazilian E-Commerce Public Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) hingga website deployment menggunakan streamlit. Data ini mencakup informasi seputar pelanggan, produk, pesanan, pembayaran, dan lokasi geografis. Analisis ini dimaksudkan untuk memberikan wawasan yang berharga dalam mendukung pengambilan keputusan bisnis.
 
 ## Pertanyaan Bisnis
 
