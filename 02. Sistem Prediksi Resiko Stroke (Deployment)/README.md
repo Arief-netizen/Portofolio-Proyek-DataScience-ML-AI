@@ -1,4 +1,6 @@
 # Capstone Project SIB Dicoding - Tim C22-083
+![Sertifikat-Project-Terbaik](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/8667243a-0651-4a81-a561-3a902c95c602)
+
 ### Anggota Tim
 - Imam Arief Al Baihaqy (Machine Learning Developer)
 - Rosyiidah Hasnaa (Front End Developer)
