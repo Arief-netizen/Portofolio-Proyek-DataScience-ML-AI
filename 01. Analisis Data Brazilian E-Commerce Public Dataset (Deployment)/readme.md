@@ -14,7 +14,7 @@ Proyek ini melibatkan langkah-langkah seperti melakukan proses data wrangling un
 
 Untuk informasi lebih lanjut, Anda dapat mengunjungi notebook Colab yang terlampir dalam proyek ini atau melihat dataset asli di [Kaggle Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
 
-## Setup Environment Dashboard Analisis Data Brazilian E-Commerce Public Dataset
+## Setup Environment Dashboard Analisis Data Brazilian E-Commerce
 ```
 conda create --name main-ds python=3.9
 conda activate main-ds
