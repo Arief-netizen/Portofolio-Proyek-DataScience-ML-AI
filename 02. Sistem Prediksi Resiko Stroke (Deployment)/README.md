@@ -10,11 +10,11 @@
 - Nikolas Edo (Front End Developer)
 
 ### Detail
-**Learning Path :** Pengembang Machine Learning dan Front-End Web
+**Learning Path:** Pengembang Machine Learning dan Front-End Web
 
-**Tema yang dipilih :** Solusi Terkait Kesehatan dan Kesejahteraan Lingkungan
+**Tema yang dipilih:** Solusi Terkait Kesehatan dan Kesejahteraan Lingkungan
 
-**Judul Proyek :** Sistem Prediksi Penyakit Stroke Berbasis Machine Learning
+**Judul Proyek:** Sistem Prediksi Penyakit Stroke Berbasis Machine Learning
 
 ### Setup Local
 
