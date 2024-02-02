@@ -1,6 +1,6 @@
 <h1 align="center">Analisis Data Brazilian E-Commerce Public Dataset</h1>
 <p align="center"> 
-   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/aff85630-41be-4ad4-ac08-5c4b19e6dae2">
+   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/aff85630-41be-4ad4-ac08-5c4b19e6dae2" height="400">
 </p>
 
 **Tujuan Proyek:**
