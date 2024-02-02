@@ -54,6 +54,8 @@ Visualisasi data dilakukan untuk memberikan gambaran yang lebih jelas terkait pe
 ## Explanatory Analysis
 
 ### **Segmentasi Pasar Berdasarkan Wilayah Geografis:**
+![Segmentasi-Pasar](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/c6d130d9-2bbf-40e1-b98c-3952430146aa)
+
 Berdasarkan hasil analisis, dapat disimpulkan bahwa Sao Paulo adalah kota dengan jumlah pelanggan terbanyak, diikuti oleh Rio de Janeiro dan Belo Horizonte. Untuk mengoptimalkan potensi pasar, disarankan untuk:
 
 - Meningkatkan strategi pemasaran di wilayah-wilayah dengan pertumbuhan pelanggan yang potensial.
@@ -61,6 +63,8 @@ Berdasarkan hasil analisis, dapat disimpulkan bahwa Sao Paulo adalah kota dengan
 - Membangun kemitraan lokal dan berkolaborasi dengan bisnis setempat untuk memperluas jangkauan.
 
 ### **Kategori Barang yang Paling Sering Dibeli dan Solusi terhadap Kategori Produk yang Paling Jarang Dibeli:**
+![Penjualan-Kategori-Produk](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/3edfe53c-1b49-46c4-b09b-321587542aa5)
+
 Berdasarkan analisis, Bed, Bath, Table adalah kategori produk dengan penjualan tertinggi, sementara kategori Security and Service adalah yang paling sedikit dibeli. Solusi yang dapat diimplementasikan melibatkan:
 
 - Peningkatan promosi dan pemasaran untuk produk kategori yang kurang diminati.
@@ -68,13 +72,19 @@ Berdasarkan analisis, Bed, Bath, Table adalah kategori produk dengan penjualan t
 - Melakukan riset pasar lebih lanjut untuk memahami preferensi pelanggan di kategori tersebut.
 
 ### **Peningkatan Pembelian Tertinggi pada Bulan Tertentu:**
+![Jumlah-Pesanan](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/728d44a1-1e97-4129-804e-aedeabee7a3b)
+
 Dari analisis, diketahui bahwa terjadi peningkatan pembelian tertinggi pada bulan November 2017. Faktor yang mungkin menyebabkan peningkatan ini antara lain:
 
 - Penawaran promo khusus selama musim liburan atau peristiwa penjualan besar.
 - Program loyalitas atau hadiah khusus untuk pelanggan selama periode tersebut.
 - Keberhasilan kampanye pemasaran atau iklan yang diluncurkan pada bulan tersebut.
 
+Berdasarkan informasi tersebut dapat dilakukan peningkatan promosi untuk produk-produk yang berkaitan dengan momen atau peristiwa tersebut. Hal ini dapat dilakukan dengan berbagai cara, seperti memasang iklan di media massa, mempromosikan produk melalui media sosial, atau mengadakan event khusus untuk mempromosikan produk.
+
 ### **Tipe Pembayaran yang Paling Sering Digunakan dan Peningkatan Layanan Transaksi:**
+![Tipe-Pembayaran](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/40532622-64f2-4e0f-89e4-4c8d55b3485f)
+
 Dari hasil analisis, diketahui bahwa penggunaan kartu kredit mendominasi tipe pembayaran. Untuk meningkatkan layanan transaksi:
 
 - Memperluas pilihan kartu kredit yang dapat diterima.
