@@ -1,6 +1,6 @@
 <h1 align="center">Analisis Data Brazilian E-Commerce Public Dataset</h1>
 <p align="center"> 
-   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/aff85630-41be-4ad4-ac08-5c4b19e6dae2" height="400" style="display: block; margin: 0 auto;">
+   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/aff85630-41be-4ad4-ac08-5c4b19e6dae2">
 </p>
 
 **Tujuan Proyek:**
@@ -58,7 +58,7 @@ Visualisasi data dilakukan untuk memberikan gambaran yang lebih jelas terkait pe
 
 ### **Segmentasi Pasar Berdasarkan Wilayah Geografis:**
 <p align="center"> 
-   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/c6d130d9-2bbf-40e1-b98c-3952430146aa" height="400" style="display: block; margin: 0 auto;">
+   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/c6d130d9-2bbf-40e1-b98c-3952430146aa" height="400">
 </p>
 Berdasarkan hasil analisis, dapat disimpulkan bahwa Sao Paulo adalah kota dengan jumlah pelanggan terbanyak, diikuti oleh Rio de Janeiro dan Belo Horizonte. Untuk mengoptimalkan potensi pasar, disarankan untuk:
 
@@ -68,7 +68,7 @@ Berdasarkan hasil analisis, dapat disimpulkan bahwa Sao Paulo adalah kota dengan
 
 ### **Kategori Barang yang Paling Sering Dibeli dan Solusi terhadap Kategori Produk yang Paling Jarang Dibeli:**
 <p align="center"> 
-   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/3edfe53c-1b49-46c4-b09b-321587542aa5" height="400" style="display: block; margin: 0 auto;">
+   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/3edfe53c-1b49-46c4-b09b-321587542aa5" height="400">
 </p>
 Berdasarkan analisis, Bed, Bath, Table adalah kategori produk dengan penjualan tertinggi, sementara kategori Security and Service adalah yang paling sedikit dibeli. Solusi yang dapat diimplementasikan melibatkan:
 
@@ -78,7 +78,7 @@ Berdasarkan analisis, Bed, Bath, Table adalah kategori produk dengan penjualan t
 
 ### **Peningkatan Pembelian Tertinggi pada Bulan Tertentu:**
 <p align="center"> 
-   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/728d44a1-1e97-4129-804e-aedeabee7a3b" height="400" style="display: block; margin: 0 auto;">
+   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/728d44a1-1e97-4129-804e-aedeabee7a3b" height="400">
 </p>
 Dari analisis, diketahui bahwa terjadi peningkatan pembelian tertinggi pada bulan November 2017. Faktor yang mungkin menyebabkan peningkatan ini antara lain:
 
@@ -90,7 +90,7 @@ Berdasarkan informasi tersebut dapat dilakukan peningkatan promosi untuk produk-
 
 ### **Tipe Pembayaran yang Paling Sering Digunakan dan Peningkatan Layanan Transaksi:**
 <p align="center"> 
-   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/40532622-64f2-4e0f-89e4-4c8d55b3485f" height="400" style="display: block; margin: 0 auto;">
+   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/40532622-64f2-4e0f-89e4-4c8d55b3485f" height="400">
 </p>
 Dari hasil analisis, diketahui bahwa penggunaan kartu kredit mendominasi tipe pembayaran. Untuk meningkatkan layanan transaksi:
 
