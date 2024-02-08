@@ -239,9 +239,9 @@ Berdasarkan Gambar 4, keterangan yang ada pada persamaan RMSE yaitu:
 
     i => Urutan Data
 
-    ŷ => Nilai hasil prediksi
-
     y => Nilai hasil observasi
+
+    ŷ => Nilai hasil prediksi
 
 - Melihat visualisasi proses training plot metrik evaluasi RMSE dengan matplotlib.
 
@@ -255,8 +255,3 @@ Berdasarkan Gambar 4, keterangan yang ada pada persamaan RMSE yaitu:
 ## Kesimpulan
 
 Sistem rekomendasi yang dibuat pada proyek ini untuk dapat merekomendasikan buku kepada pengguna dengan menggunakan dua pendekatan model algortima. Model pertama yaitu, *Content Based Filtering* yang bertujuan untuk menghasilkan sejumlah rekomendasi buku yang mirip dengan buku yang disukai pengguna di masa lalu. Dan model kedua yaitu, *Collaborative Filtering* yang bertujuan untuk menghasilkan sejumlah rekomendasi buku yang belum pernah dibaca sebelumnya yang mungkin akan disukai pengguna berdasarkan preferensi pengguna lain. Pengembangan kedua pendekatan model pada proyek ini untuk menghasilkan sistem rekomendasi buku telah memiliki tingkat akurasi perekomendasian dengan cukup baik. Namun tidak menutup kemungkinan, model yang telah dibuat pada proyek ini dapat dikembangkan lagi dengan lebih baik untuk mendapatkan tingkat akurasi yang lebih baik dan dapat lebih meminimalkan error.
-
-
-## Referensi
-
-Reyvan Maulid (2022). *Kriteria Jenis Teknik Analisis Data dalam Forecasting*. Diambil dari: https://www.dqlab.id/kriteria-jenis-teknik-analisis-data-dalam-forecasting. Diakses tanggal: 06 Oktober 2022.
