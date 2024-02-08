@@ -1,5 +1,7 @@
-# Analisis Data Brazilian E-Commerce Public Dataset
-![Cover-Brazilian-Ecommerce](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/aff85630-41be-4ad4-ac08-5c4b19e6dae2)
+<h1 align="center">Analisis Data Brazilian E-Commerce Public Dataset</h1>
+<p align="center"> 
+   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/aff85630-41be-4ad4-ac08-5c4b19e6dae2" height="400">
+</p>
 
 **Tujuan Proyek:**
 Proyek ini bertujuan untuk melakukan analisis mendalam terhadap [Brazilian E-Commerce Public Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) hingga website deployment menggunakan streamlit. Data ini mencakup informasi seputar pelanggan, produk, pesanan, pembayaran, dan lokasi geografis. Analisis ini dimaksudkan untuk memberikan wawasan yang berharga dalam mendukung pengambilan keputusan bisnis.
@@ -55,8 +57,9 @@ Visualisasi data dilakukan untuk memberikan gambaran yang lebih jelas terkait pe
 ## Explanatory Analysis
 
 ### **Segmentasi Pasar Berdasarkan Wilayah Geografis:**
-![Segmentasi-Pasar](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/c6d130d9-2bbf-40e1-b98c-3952430146aa)
-
+<p align="center"> 
+   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/c6d130d9-2bbf-40e1-b98c-3952430146aa" height="400">
+</p>
 Berdasarkan hasil analisis, dapat disimpulkan bahwa Sao Paulo adalah kota dengan jumlah pelanggan terbanyak, diikuti oleh Rio de Janeiro dan Belo Horizonte. Untuk mengoptimalkan potensi pasar, disarankan untuk:
 
 - Meningkatkan strategi pemasaran di wilayah-wilayah dengan pertumbuhan pelanggan yang potensial.
@@ -64,8 +67,9 @@ Berdasarkan hasil analisis, dapat disimpulkan bahwa Sao Paulo adalah kota dengan
 - Membangun kemitraan lokal dan berkolaborasi dengan bisnis setempat untuk memperluas jangkauan.
 
 ### **Kategori Barang yang Paling Sering Dibeli dan Solusi terhadap Kategori Produk yang Paling Jarang Dibeli:**
-![Penjualan-Kategori-Produk](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/3edfe53c-1b49-46c4-b09b-321587542aa5)
-
+<p align="center"> 
+   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/3edfe53c-1b49-46c4-b09b-321587542aa5" height="400">
+</p>
 Berdasarkan analisis, Bed, Bath, Table adalah kategori produk dengan penjualan tertinggi, sementara kategori Security and Service adalah yang paling sedikit dibeli. Solusi yang dapat diimplementasikan melibatkan:
 
 - Peningkatan promosi dan pemasaran untuk produk kategori yang kurang diminati.
@@ -73,8 +77,9 @@ Berdasarkan analisis, Bed, Bath, Table adalah kategori produk dengan penjualan t
 - Melakukan riset pasar lebih lanjut untuk memahami preferensi pelanggan di kategori tersebut.
 
 ### **Peningkatan Pembelian Tertinggi pada Bulan Tertentu:**
-![Jumlah-Pesanan](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/728d44a1-1e97-4129-804e-aedeabee7a3b)
-
+<p align="center"> 
+   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/728d44a1-1e97-4129-804e-aedeabee7a3b" height="400">
+</p>
 Dari analisis, diketahui bahwa terjadi peningkatan pembelian tertinggi pada bulan November 2017. Faktor yang mungkin menyebabkan peningkatan ini antara lain:
 
 - Penawaran promo khusus selama musim liburan atau peristiwa penjualan besar.
@@ -84,8 +89,9 @@ Dari analisis, diketahui bahwa terjadi peningkatan pembelian tertinggi pada bula
 Berdasarkan informasi tersebut dapat dilakukan peningkatan promosi untuk produk-produk yang berkaitan dengan momen atau peristiwa tersebut. Hal ini dapat dilakukan dengan berbagai cara, seperti memasang iklan di media massa, mempromosikan produk melalui media sosial, atau mengadakan event khusus untuk mempromosikan produk.
 
 ### **Tipe Pembayaran yang Paling Sering Digunakan dan Peningkatan Layanan Transaksi:**
-![Tipe-Pembayaran](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/40532622-64f2-4e0f-89e4-4c8d55b3485f)
-
+<p align="center"> 
+   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/40532622-64f2-4e0f-89e4-4c8d55b3485f" height="400">
+</p>
 Dari hasil analisis, diketahui bahwa penggunaan kartu kredit mendominasi tipe pembayaran. Untuk meningkatkan layanan transaksi:
 
 - Memperluas pilihan kartu kredit yang dapat diterima.
@@ -94,7 +100,7 @@ Dari hasil analisis, diketahui bahwa penggunaan kartu kredit mendominasi tipe pe
 
 Hasil explanatory analysis ini memberikan pemahaman mendalam tentang perilaku pelanggan dan peluang pengembangan bisnis yang dapat dioptimalkan.
 
-Proyek ini memberikan pandangan menyeluruh terhadap Brazilian E-Commerce Public Dataset dan memberikan dasar untuk pengambilan keputusan bisnis yang lebih baik. Seluruh kode dan analisis dapat ditemukan dalam file notebook [Analisis Data Brazilian E-Commerce Public Dataset.ipynb](https://colab.research.google.com/drive/1UHxlt5_OE1BSqRmJTsWcp9nVWyRI2G9T).
+Proyek ini memberikan pandangan menyeluruh terhadap Brazilian E-Commerce Public Dataset dan memberikan dasar untuk pengambilan keputusan bisnis yang lebih baik. Seluruh kode dan analisis dapat ditemukan dalam file notebook [Analisis Data Brazilian E-Commerce Public Dataset.ipynb](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/blob/41de63bd8189edbac38d8e98836b8f469e856d00/01.%20Analisis%20Data%20Brazilian%20E-Commerce%20Public%20Dataset%20(Deployment)/Notebook/Analisis%20Data%20Brazilian%20E-Commerce%20Public%20Dataset.ipynb).
 
 
 ## Setup Environment Dashboard Analisis Data Brazilian E-Commerce

@@ -17,6 +17,6 @@ st.markdown('1. Bagaimana segmentasi pasar berdasarkan wilayah geografis? [**(HA
 st.markdown('2. Kategori barang apa\nyang paling sering dibeli oleh pelanggan, dan bagaimana solusi terhadap kategori produk yang paling jarang dibeli? [**(HASIL)**](http://localhost:8501/B._KATEGORI_PRODUK)')
 st.markdown('3. Pada bulan apa terjadi peningkatan pembelian tertinggi oleh pelanggan dan apa yang mungkin menyebabkan hal itu dapat terjadi? [**(HASIL)**](http://localhost:8501/C._JUMLAH_PESANAN)')
 st.markdown('4. Tipe pembayaran apa yang paling sering atau disukai oleh pelanggan saat melakukan transaksi dan bagaimana peningkatan layanan tersebut agar pelanggan lebih nyaman dalam melakukan transaksi? [**(HASIL)**](http://localhost:8501/D._TIPE_PEMBAYARAN)')
-st.markdown('Proyek Analisis Data: [colab.research.google.com/AnalisisData](https://colab.research.google.com/drive/1eruUuanIWKx_noWopZ1_gj2v5kFMZHQ6?usp=sharing)')
+st.markdown('Tautan Proyek Analisis Data: [Klik disini!](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/blob/41de63bd8189edbac38d8e98836b8f469e856d00/01.%20Analisis%20Data%20Brazilian%20E-Commerce%20Public%20Dataset%20(Deployment)/Notebook/Analisis%20Data%20Brazilian%20E-Commerce%20Public%20Dataset.ipynb)')
 
 st.caption('Copyright ©AriefBaihaqy 2023')

@@ -1,4 +1,8 @@
-# Capstone Project SIB Dicoding - Tim C22-083
+<h1 align="center">Capstone Project SIB Dicoding - Tim C22-083</h1>
+<p align="center"> 
+   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/8667243a-0651-4a81-a561-3a902c95c602" height="400">
+</p>
+
 ### Anggota Tim
 - Imam Arief Al Baihaqy (Machine Learning Developer)
 - Rosyiidah Hasnaa (Front End Developer)
@@ -6,11 +10,11 @@
 - Nikolas Edo (Front End Developer)
 
 ### Detail
-**Learning Path :** Pengembang Machine Learning dan Front-End Web
+**Learning Path:** Pengembang Machine Learning dan Front-End Web
 
-**Tema yang dipilih :** Solusi Terkait Kesehatan dan Kesejahteraan Lingkungan
+**Tema yang dipilih:** Solusi Terkait Kesehatan dan Kesejahteraan Lingkungan
 
-**Judul Proyek :** Sistem Prediksi Penyakit Stroke Berbasis Machine Learning
+**Judul Proyek:** Sistem Prediksi Penyakit Stroke Berbasis Machine Learning
 
 ### Setup Local
 
