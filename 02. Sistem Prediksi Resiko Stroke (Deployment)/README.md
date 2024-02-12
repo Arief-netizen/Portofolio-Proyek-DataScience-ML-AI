@@ -33,7 +33,12 @@
 4. Jalankan http://127.0.0.1:5000 pada browser.
 
 ### Capture Project
+- Halaman Cek Kesehatan
 <p align="center">
    <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/f9af3903-8499-45a7-8d35-d774668fa609" height="778")>
+</p>
+
+- Hasil Cek Kesehatan
+<p align="center">
    <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/f3567921-f9ff-4433-925d-bc1cf6c0d80c" height="750")>
 </p>
