@@ -28,14 +28,6 @@ class AppBar extends HTMLElement {
           </li>
           <li class="nav-item">
             <a
-              id="nav-tentang-kami"
-              class="nav-link active"
-              href="/about"
-              >Tentang Kami</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
               href="/predict"
               id="nav-input"
               class="nav-link active"
@@ -50,6 +42,14 @@ class AppBar extends HTMLElement {
               
               href="/article"
               >Artikel Kesehatan</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              id="nav-tentang-kami"
+              class="nav-link active"
+              href="/about"
+              >Tentang Kami</a
             >
           </li>
         </ul>
