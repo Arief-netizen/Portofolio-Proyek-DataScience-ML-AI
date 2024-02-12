@@ -13,9 +13,9 @@ class FooterHealthcare extends HTMLElement {
       <div class="sub-section-footer" >
         <p class="pb-2 pt-2" style="font-weight: 700">LAYANAN KAMI</p>
         <p class="pb-2"><a style="text-decoration:none;"class="text-white"href="/">Beranda</a></p>
-        <p class="pb-2"><a style="text-decoration:none;"class="text-white"href="/about">Tentang Kami</a></p>
         <p class="pb-2"><a style="text-decoration:none;"class="text-white"href="/predict">Cek Kesehatan</a></p>
         <p class="pb-2"><a style="text-decoration:none;"class="text-white"href="/article">Artikel Kesehatan</a></p>
+        <p class="pb-2"><a style="text-decoration:none;"class="text-white"href="/about">Tentang Kami</a></p>
       </div>
       <div class="sub-section-footer" >
         <p class="pb-2 pt-2" style="font-weight: 700">HUBUNGI KAMI</p>
