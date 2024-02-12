@@ -20,7 +20,7 @@
 
 1. Buka folder Healthcare dengan text editor.
 
-2. Pada terminal install dependencies yang terletak di file requirements.txt dengan command:
+2. Buka terminal pada text editor dan install dependencies yang terletak di file requirements.txt dengan command:
     ```bash
     pip install -r requirements.txt
     ```
@@ -31,5 +31,3 @@
     ```
 
 4. Jalankan http://127.0.0.1:5000 pada browser.
-
-5. Untuk stop aplikasi tekan CTRL + C pada terminal.
