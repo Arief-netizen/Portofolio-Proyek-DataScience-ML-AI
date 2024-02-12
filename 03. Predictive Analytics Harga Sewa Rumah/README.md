@@ -1,4 +1,4 @@
-# Laporan Proyek Machine Learning - Imam Arief Al Baihaqy
+# Predictive Analytics Harga Sewa Rumah
 
 ## Domain Proyek
 
@@ -55,11 +55,11 @@ Berdasarkan informasi dari [Kaggle](https://www.kaggle.com/datasets/iamsouravban
 - Point of Contact: Siapa yang harus dihubungi untuk informasi lebih lanjut tentang rumah/apartemen/rumah susun.
 
 
-Tabel 1. Mengecek informasi pada dataset:
+Tabel 1. Informasi pada dataset:
 
 | Column             | Non-Null Count | Dtype   |
 |--------------------|----------------|---------|
-| Posted On          | object         | object  |
+| Posted On          | 4746 non-null  | object  |
 | BHK                | 4746 non-null  | int64   |
 | Rent               | 4746 non-null  | int64   |
 | Size               | 4746 non-null  | int64   |
@@ -73,10 +73,10 @@ Tabel 1. Mengecek informasi pada dataset:
 | Point of Contact   | 4746 non-null  | object  |
 
 Pada Tabel 1 dapat disimpulkan bahwa:
--	Terdapat 8 kolom dengan tipe object, yaitu: Posted On, Floor, Area Type, Area Locality, City, Furnishing Status, Tenant Preferred, dan  Point of Contact. Kolom ini merupakan categorical features (fitur non-numerik).
 -	Terdapat 4 kolom numerik dengan tipe data int64, yaitu: BHK, Rent, Size, dan Bathroom.
+-	Terdapat 8 kolom categorical dengan tipe object, yaitu: Posted On, Floor, Area Type, Area Locality, City, Furnishing Status, Tenant Preferred, dan  Point of Contact.
 
-Tabel 2. Mengecek deskripsi statistik data:
+Tabel 2. Deskripsi statistik data:
 
 |       | BHK         | Rent         | Size        | Bathroom    |
 |-------|-------------|--------------|-------------|-------------| 
@@ -89,7 +89,7 @@ Tabel 2. Mengecek deskripsi statistik data:
 | 75%   | 3.000000    | 3.300000e+04 | 1200.000000 | 2.000000    |
 | max   | 6.000000    | 3.500000e+06 | 8000.000000 | 10.000000   |
 
-Berdasarkan Tabel 2, fungsi terdapat informasi statistik pada masing-masing kolom, antara lain:
+Berdasarkan Tabel 2, terdapat informasi statistik pada masing-masing kolom, antara lain:
 
 - Count  adalah jumlah sampel pada data.
 - Mean adalah nilai rata-rata.
@@ -116,7 +116,6 @@ Gambar 1. Outliers Fitur Size.
 Pada Gambar 1. Dalam menangani outliers digunakan metode IQR dengan membuat batas bawah dan batas atas dengan persamaan:
 
 Batas bawah = Q1 - 1.5 * IQR
-
 Batas atas  = Q3 + 1.5 * IQR
 
 Hasil penanganan outliers dengan metode IQR dapat dilihat pada Gambar 2:
@@ -130,7 +129,7 @@ Gambar 2. Hasil penanganan outliers Fitur Size.
 
 ## Exploratory Data Analysis - Univariate Analysis
 
-Tabel 3. Mengecek nilai sample pada fitur Area Type:
+Tabel 3. Sample pada fitur Area Type:
 
 | Area Type   | BHK         | Rent         | Size        | Bathroom    |
 |-------------|-------------|--------------|-------------|-------------|
@@ -138,9 +137,9 @@ Tabel 3. Mengecek nilai sample pada fitur Area Type:
 | Carpet Area | 1799        | 1799         | 1799        | 1799        |
 | Super Area  | 2330        | 2330         | 2330        | 2330        |
 
-Dari Tabel 3, diketahui jumlah sample pada baris Built Area di fitur Area Type hanya memliki 2 sample, maka sample Built Area akan dihapus karena memiliki sample yang terlalu sedikit.
+Dari Tabel 3, pada fitur Area Type, jumlah sample pada baris Built Area hanya memliki 2 sample, maka sample Built Area akan dihapus karena memiliki sample yang terlalu sedikit.
 
-Tabel 4. Mengecek nilai unique length pada masing-masing fitur:
+Tabel 4. Uunique length pada masing-masing fitur:
 
 | Feature            | Unique Length |
 |--------------------|---------------|
@@ -151,7 +150,7 @@ Tabel 4. Mengecek nilai unique length pada masing-masing fitur:
 | Furnishing Status  | 3             |
 | Tenant Preferred   | 3             |
 
-Berdasarkan Tabel 4, dapat dilihat bahwa fitur Floor dan Area Locality memiliki nilai unique yang terlalu banyak, maka kedua fitur ini akan dihapus karena nilai unique yang terlalu banyak jika dibandingkan dengan fitur yang lain.
+Berdasarkan Tabel 4, Dapat dilihat pada output diatas bahwa fitur Floor dan Area Locality memiliki nilai unique length yang terlalu tinggi jika dibandingkan dengan fitur lainnya. Maka kedua fitur ini akan dihapus.
 
 ### Categorical Features
 
@@ -162,7 +161,7 @@ Berdasarkan Tabel 4, dapat dilihat bahwa fitur Floor dan Area Locality memiliki 
 
 Gambar 3. Fitur Area Type.
 
-Berdasarkan Gambar 3. Terdapat 2 kategori pada fitur Area Type, secara berurutan dari yang paling banyak yaitu: Super Area, dan Carpet Area. Dari data persentase dapat disimpulkan bahwa lebih dari 50% sampel merupakan rumah tipe grade tinggi, yaitu Super Area.
+Berdasarkan Gambar 3. Terdapat 2 kategori pada fitur Area Type, secara berurutan dari yang paling banyak yaitu: Super Area, lalu Carpet Area. Dari data persentase dapat disimpulkan bahwa lebih dari 50% sampel merupakan rumah tipe grade tinggi, yaitu Super Area.
 
 **Fitur City**
 
@@ -172,7 +171,7 @@ Berdasarkan Gambar 3. Terdapat 2 kategori pada fitur Area Type, secara berurutan
 
 Gambar 4. Fitur City.
 
-Berdasarkan Gambar 4. Urutan kategori letak rumah/apartemen/rumah susun di kota yang paling sedikit ke yang paling banyak adalah Kolkata, Delhi, Mumbai, Hyderabad, Chennai, dan Bangalore. Dari grafik diatas dapat disimpulkan bahwa sebagian besar letak rumah/apartemen/rumah susun dari yang paling banyak berada pada kota Bangalore, Chennai, dan Hyderadab.
+Berdasarkan Gambar 4. Urutan kategori letak rumah/apartemen/rumah susun di kota yang paling sedikit ke yang paling banyak adalah Kolkata-Delhi-Mumbai-Hyderabad-Chenmai-Bangalore. Dari grafik diatas dapat disimpulkan bahwa sebagian besar letak rumah/apartemen/rumah susun dari yang paling banyak berada pada kota Bangalore, Chennai, dan Hyderadab.
 
 **Fitur Furnishing Status**
 
@@ -182,11 +181,11 @@ Berdasarkan Gambar 4. Urutan kategori letak rumah/apartemen/rumah susun di kota 
 
 Gambar 5. Fitur Furnishing Status.
 
-Berdasarkan Gambar 5. Fitur Furnishing Status terdiri dari 3 kategori dari yang paling sedikit ke yang paling banyak, yaitu: Furnished (ada perabotan), Unfurnished (tidak ada perabotan), Semi-Furnished (sedikit perabotan). Dapat disimpulkan bahwa rumah/apartemen/rumah susun lebih banyak yang memiliki sedikit perabotan dan tidak ada perabotan.
+Berdasarkan Gambar 5. Fitur Furnishing Status terdiri dari 3 kategori dari yang paling sedikit ke yang paling banyak, yaitu: Furnished (memiliki perabotan), Unfurnished (tidak ada perabotan), Semi-Furnished (memiliki sebagian perabotan). Dapat disimpulkan bahwa rumah/apartemen/rumah susun yang tersedia lebih banyak yang memiliki sebagian perabotan dan tidak ada perabotan.
 
 ### Numerical Features
 
-Menampilkan histogram pada masing-masing numerical features dapat dilihat pada Gambar 6:
+Histogram pada masing-masing numerical features dapat dilihat pada Gambar 6:
 
 <p>
   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/d431df67-4ae3-42a2-8cc2-4001ba3df1f9" width="800">
@@ -194,17 +193,28 @@ Menampilkan histogram pada masing-masing numerical features dapat dilihat pada G
 
 Gambar 6. Univariate numerical features.
 
-Berdasarkan Gambar 6. Dapat disimpulkan bahwa:
+Berdasarkan Gambar 6. Didapatkan informasi sebagai berikut:
 
+Fitur BHK:
 - Rumah/apartemen/rumah susun memiliki 1 hingga 3 kamar tidur, aula, dan dapur, namun sebagian besar memiliki 2 kamar tidur, aula, dan dapur.
+
+Fitur Rent:
+- Peningkatan harga sewa rumah sebanding dengan penurunan jumlah sampel. Dapat dilihat jelas dari histogram 'Rent' yang grafiknya mengalami penurunan seiring dengan semakin banyaknya jumlah sampel (sumbu x).
+- Rentang harga sewa rumah hingga sekitar $65000.
+
+- Harga rumah yang banyak disewa sekitar bernilai dibawah $18000.
+
+Fitur Size:
 - Rumah/apartemen/rumah susun memiliki ukuran dibawah 2100 (ft<sup>2</sup>), namun sebagian besar memiliki ukuran diantara 500 (ft<sup>2</sup>) hingga 1200 (ft<sup>2</sup>).
+
+Fitur Bathroom:
 - Rumah/apartemen/rumah susun memiliki 1 hingga 3 kamar mandi, namun sebagian besar memiliki 2 kamar mandi.
 
 ## Exploratory Data Analysis - Multivariate Analysis
 
 ### Categorical Features
 
-Mengecek rata-rata sewa rumah/apartemen/rumah susun terhadap masing-masing fitur untuk mengetahui pengaruh fitur kategori terhadap sewa rumah/apartemen/rumah susun:
+Rata-rata sewa rumah/apartemen/rumah susun terhadap masing-masing fitur untuk mengetahui pengaruh fitur kategori terhadap sewa rumah/apartemen/rumah susun:
 
 <p>
   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/6d9157bc-5ee9-4de0-8676-6c9863332a1d" width="600">
@@ -214,14 +224,14 @@ Gambar 7. Multivariate categorical features.
 
 Berdasarkan Gambar 7. Dapat disimpulkan bahwa:
 
-- Pada fitur Area Type, rata-rata sewa berada antara 3000 hingga 3300. Tipe grade tertinggi yaitu Super Area memiliki sewa yang rendah jika dibandingkan dengan sewa tipe grade dibawahnya yaitu Carpet Area. Dalam hal ini fitur Area Type memiliki pengaruh yang kecil.
-- Pada fitur City, rata-rata sewa berada antara 1100 hingga 3600. Kota Bangalore, Chennai, dan hyderabad memiliki sewa yang rendah jika dibandingkan dengan sewa kota Mumbai. Dalam hal ini fitur City memiliki pangaruh yang cukup besar.
-- Pada fitur Furnishing Status, rata-rata sewa berada antara 1600 hingga 2300. rumah/apartemen.rumah susun Semi-Furnished dan Unfurnished memiliki sewa yang rendah jika dibandingkan dengan sewa rumah/apartemen/rumah susun yang Furnished. Dalam hal ini fitur Furnishing Status memiliki pengaruh yang cukup besar.
-- Pada Fitur Tenant Preferred, rata-rata sewa berada antara 1700 hingga 2400. Dari grafik dapat dilihat bahawa Family yang menyarankan sewa memiliki sewa yang paling tinggi dibandingkan dengan yang lain. Dalam hal ini fitur Tenant Preferred memiliki pengaruh yang cukup lumayan besar.
+- Pada fitur Area Type, rata-rata sewa berada antara \$15007 hingga \$23714. Tipe grade tertinggi yaitu Super Area memiliki sewa yang rendah jika dibandingkan dengan sewa tipe grade dibawahnya yaitu Carpet Area. Dalam hal ini fitur Area Type memiliki pengaruh yang kecil.
+- Pada fitur City, rata-rata sewa berada antara \$10987 hingga \$36662. Kota Bangalore, Chennai, dan hyderabad memiliki sewa yang rendah jika dibandingkan dengan sewa kota Mumbai. Dalam hal ini fitur City memiliki pangaruh yang cukup besar.
+- Pada fitur Furnishing Status, rata-rata sewa berada antara \$15989 hingga \$24250. rumah/apartemen/rumah susun Semi-Furnished dan Unfurnished memiliki sewa yang rendah jika dibandingkan dengan sewa rumah/apartemen/rumah susun yang Furnished. Dalam hal ini fitur Furnishing Status memiliki pengaruh yang cukup besar.
+- Pada Fitur Tenant Preferred, rata-rata sewa berada antara \$17384 hingga \$24004. Dari grafik dapat dilihat bahawa Family memiliki sewa yang paling tinggi dibandingkan dengan yang lain. Dalam hal ini fitur Tenant Preferred memiliki pengaruh yang cukup lumayan besar.
 
 ### Numerical Features
 
-Menampilkan kolerasi antar fitur numerical dapat dilihat pada Gambar 8:
+Kolerasi antar fitur numerical dapat dilihat pada Gambar 8:
 
 <p>
   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/edfbb290-1741-4671-b2af-6b930e33312f" width="600">
@@ -229,33 +239,29 @@ Menampilkan kolerasi antar fitur numerical dapat dilihat pada Gambar 8:
 
 Gambar 8. Multivariate numerical features.
 
-Berdasarkan Gambar 8. Koefisien korelasi berkisar antara -1 dan +1. Ia mengukur kekuatan hubungan antara dua variabel serta arahnya (positif atau negatif). Mengenai kekuatan hubungan antar variabel, semakin dekat nilainya ke 1 atau -1, korelasinya semakin kuat. Sedangkan, semakin dekat nilainya ke 0, korelasinya semakin lemah. Dapat dilihat kolerasi pada Fitur BHK dan Bathroom berkolerasi dengan fitur Size dengan cukup baik.
+Berdasarkan Gambar 8. Koefisien korelasi berkisar antara -1 dan +1. Ia mengukur kekuatan hubungan antara dua variabel serta arahnya (positif atau negatif). Mengenai kekuatan hubungan antar variabel, semakin dekat nilainya ke 1 atau -1, korelasinya semakin kuat. Sedangkan, semakin dekat nilainya ke 0, korelasinya semakin lemah. Dapat dilihat kolerasi pada Fitur BHK, Size, dan Bathroom berkolerasi dengan fitur Rent dengan cukup baik. Sementara itu, fitur 'Price Per Square Feet' memiliki korelasi yang kecil (0.29). Sehingga, fitur tersebut akan di-drop.
 
 ## Data Preparation
 
 1. Encoding Fitur Kategori
 
-    Proses encoding fitur categorical menggunakan teknik one-hot-encoding dalam penerapannya untuk mendapatkan fitur  baru yang sesuai sehingga dapat mewakili variabel categorical. Dalam hal ini terdapat fitur categorical yaitu: Area Type, City, Furnishing Status, dan Tenant Preferred yang kemudian akan diubah menjadi numerical features.
+    Proses encoding fitur categorical menggunakan teknik one-hot-encoding dalam penerapannya untuk mendapatkan fitur baru yang sesuai sehingga dapat mewakili variabel categorical. Dalam hal ini terdapat fitur categorical yaitu: Area Type, City, Furnishing Status, dan Tenant Preferred yang kemudian akan diubah menjadi numerical features.
 
-2. Reduksi Dimensi dengan PCA
+2. Train-Test-Split
 
-    Teknik Principal Component Analysis (PCA) digunakan untuk mereduksi dimensi/mengurangi jumlah fitur dengan tetap  mempertahankan informasi pada data.
+    Melakukan pembagian dataset menjadi data latih (train) dan data uji (test) dengan mempertahankan sebagian data yang ada untuk menguji seberapa baik generalisasi model terhadap data baru. Pembagian data dilakukan sebelum proses transformasi data, sehingga dapat mengurangi potensi kebocoran data (data leakage). Dalam hal ini jumlah data sebesar 4.129 akan dibagi dengan rasio 75:25 menjadi 3.096 data latih dan 1.033 data uji.
 
-3. Train-Test-Split
+3. Standarisasi
 
-    Melakukan pembagian dataset menjadi data latih (train) dan data uji (test) dengan mempertahankan sebagian data  yang ada untuk menguji seberapa baik generalisasi model terhadap data baru. Sebaiknya pembagian data dilakukan sebelum proses transformasi data, sehingga dapat mengurangi potensi kebocoran data (data leakage). Dalam hal ini jumlah data sebesar 4.129 akan dibagi menjadi 3.922 data latih dan 207 data uji.
-
-4. Standarisasi
-
-    Teknik StandardScaler dari library Scikitlearn digunakan dalam tahapan transformasi data numerical. Proses  standarisasi mengubah nilai rata-rata (mean) menjadi 0 dan nilai standar deviasi menjadi 1.
+    Untuk menghindari kebocoran informasi pada data uji, teknik StandardScaler dari library Scikitlearn digunakan dalam tahapan transformasi data numerical. Proses standarisasi mengubah nilai rata-rata (mean) menjadi 0 dan nilai standar deviasi menjadi 1.
 
 ## Modeling
 
-Dalam  mengembangkan model machine learning pada proyek ini digunakan 3 algoritma, yang kemudian akan dievaluasi performa dari masing-masing algoritma dan menentukan salah satu algoritma yang memiliki hasil terbaik dan dengan nilai error yang paling kecil. Ketiga algoritma yang akan digunakan, antara lain:
+Dalam mengembangkan model machine learning pada proyek ini digunakan 3 algoritma, yang kemudian akan dievaluasi performa dari masing-masing algoritma dan menentukan salah satu algoritma yang memiliki hasil terbaik dan dengan nilai error yang paling kecil. Ketiga algoritma yang akan digunakan, antara lain:
 
 -	K-Nearest Neighbor (KNN)
 
-    Pada algortima ini menggunakan kesamaan fitur untuk memprediksi nilai dari setiap data yang baru. KNN bekerja     dengan membandingkan jarak satu sampel ke sampel pelatihan lain dengan memilih sejumlah k tetangga terdekat. Dalam pemilihan k harus hati-hati karena apabila memilih k yang terlalu rendah, maka akan menghasilkan model yang overfit dan hasil dari prediksinya akan memiliki varians yang tinggi. Dan jika memilih k yang terlalu tinggi, maka akan menghasilkan model yang underfitt dan hasil dari prediksinya akan memiliki bias yang tinggi. Kelebihan dari algoritma KNN ini relatif sederhana dibandingkan dengan algoritma lain, mudah dipahami dan digunakan. Algoritma KNN memiliki kekurangan jika dihadapkan pada jumlah fitur atau dimensi besar yang biasa disebut curse of dimensionality. Dalam melakukan pemodelan pada proyek ini didapatkan hasil akurasi data latih sebesar 0.830. Adapun parameter dan nilai yang digunakan dalam melakukan pemodelan pada algoritma ini yaitu:
+    Pada algortima ini menggunakan kesamaan fitur untuk memprediksi nilai dari setiap data yang baru. KNN bekerja dengan membandingkan jarak satu sampel ke sampel pelatihan lain dengan memilih sejumlah k tetangga terdekat. Dalam pemilihan k harus hati-hati karena apabila memilih k yang terlalu rendah, maka akan menghasilkan model yang overfit dan hasil dari prediksinya akan memiliki varians yang tinggi. Dan jika memilih k yang terlalu tinggi, maka akan menghasilkan model yang underfitt dan hasil dari prediksinya akan memiliki bias yang tinggi. Kelebihan dari algoritma KNN ini relatif sederhana dibandingkan dengan algoritma lain, mudah dipahami dan digunakan. Algoritma KNN memiliki kekurangan jika dihadapkan pada jumlah fitur atau dimensi besar yang biasa disebut curse of dimensionality. Dalam melakukan pemodelan pada proyek ini didapatkan hasil akurasi data latih sebesar 0.516 atau 51%. Adapun parameter dan nilai yang digunakan dalam melakukan pemodelan pada algoritma ini yaitu:
     
     - n_neighbors = 8
       
@@ -263,7 +269,7 @@ Dalam  mengembangkan model machine learning pada proyek ini digunakan 3 algoritm
 
 -	Random Forest 
 
-    Algoritma Random Forest adalah salah satu algoritma supervised learning. Algoritma ini disusun dari banyak    algoritma pohon (decision tree) yang pembagian data dan fiturnya dipilih secara acak. Kelebihan dari algoritma Random Forest adalah algoritma ini sering digunakan karena cukup sederhana tetapi memiliki stabilitas yang mumpuni, dan algoritma ini termasuk kedalam kategori ensemble (group) learning yang merupakan model prediksi yang terdiri dari beberapa model dan bekerja secara bersama-sama, sehingga tingkat keberhasilan akan lebih tinggi dibanding model yang bekerja sendirian. Algoritma Random Forest ini memiliki kekurangan dalam menentukan nilai parameternya harus benar-benar tepat untuk data. Dalam melakukan pemodelan pada proyek ini didapatkan hasil akurasi data latih sebesar 0.992. Adapun parameter dan nilai yang digunakan dalam melakukan pemodelan pada algoritma ini yaitu:
+    Algoritma Random Forest adalah salah satu algoritma supervised learning. Algoritma ini disusun dari banyak algoritma pohon (decision tree) yang pembagian data dan fiturnya dipilih secara acak. Kelebihan dari algoritma Random Forest adalah algoritma ini sering digunakan karena cukup sederhana tetapi memiliki stabilitas yang mumpuni, dan algoritma ini termasuk kedalam kategori ensemble (group) learning yang merupakan model prediksi yang terdiri dari beberapa model dan bekerja secara bersama-sama, sehingga tingkat keberhasilan akan lebih tinggi dibanding model yang bekerja sendirian. Algoritma Random Forest ini memiliki kekurangan dalam menentukan nilai parameternya harus benar-benar tepat untuk data. Dalam melakukan pemodelan pada proyek ini didapatkan hasil akurasi data latih sebesar 0.982 atau 98%. Adapun parameter dan nilai yang digunakan dalam melakukan pemodelan pada algoritma ini yaitu:
     
     - n_estimators = 50 
       
@@ -283,9 +289,9 @@ Dalam  mengembangkan model machine learning pada proyek ini digunakan 3 algoritm
 
 -	Boosting Algorithm
 
-    Boosting juga merupakan metode ensemble learning, perbedaannya dengan model Random Forest adalah model dilatih secara berurutan atau dalam proses yang iteratif. Algoritma yang menggunaakn teknik boosting bertugas memperbaiki kesalahan dari model pertama yang telah dibuat. Kelebihan dari algoritma ini adalah algoritma ini berfungsi untuk meningkatkan performa atau akurasi prediksi dengan cara menggabungkan beberapa model sederhana dan dianggap lemah sehingga membentuk suatu model yang kuat. Dalam melakukan pemodelan pada proyek ini didapatkan hasil akurasi data latih sebesar 0.851. Adapun parameter dan nilai yang digunakan dalam melakukan pemodelan pada algoritma ini yaitu:
+    Boosting juga merupakan metode ensemble learning, perbedaannya dengan model Random Forest adalah model dilatih secara berurutan atau dalam proses yang iteratif. Algoritma yang menggunaakn teknik boosting bertugas memperbaiki kesalahan dari model pertama yang telah dibuat. Kelebihan dari algoritma ini adalah algoritma ini berfungsi untuk meningkatkan performa atau akurasi prediksi dengan cara menggabungkan beberapa model sederhana dan dianggap lemah sehingga membentuk suatu model yang kuat. Dalam melakukan pemodelan pada proyek ini didapatkan hasil akurasi data latih sebesar 0.848 atau 84%. Adapun parameter dan nilai yang digunakan dalam melakukan pemodelan pada algoritma ini yaitu:
     
-    - learning_rate = 0.05
+    - learning_rate = 0.1
       
       Bobot yang diterapkan pada setiap regressor di masing-masing proses iterasi boosting.
       
@@ -297,12 +303,12 @@ Dalam  mengembangkan model machine learning pada proyek ini digunakan 3 algoritm
       
       Parameter random_state digunakan untuk mengontrol random number generator yang digunakan.
       
-Sehingga dalam pembuatan model machine learning pada proyek ini performa terbaik ditunjukkan oleh algoritma Random Forest yang memiliki hasil akurasi sebesar 0.992.
+Sehingga dalam pembuatan model machine learning pada proyek ini performa terbaik ditunjukkan oleh algoritma Random Forest yang memiliki hasil akurasi sebesar 0.982 atau 98%.
 
 
 ## Evaluation
 
-Metrik yang akan digunakan pada prediksi ini adalah MSE atau Mean Squared Error yang menghitung jumlah selisih kuadrat rata-rata nilai sebenarnya dengan nilai prediksi. MSE didefinisikan dalam persamaan yang dapat dilihat pada Gambar 9:
+Metrik yang digunakan pada prediksi ini adalah MSE atau Mean Squared Error yang menghitung jumlah selisih kuadrat rata-rata nilai sebenarnya dengan nilai prediksi. MSE didefinisikan dalam persamaan yang dapat dilihat pada Gambar 9:
 
 <p>
   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/3689ac98-5381-436e-bd8b-ccd6888df4ec" width="300">
@@ -322,9 +328,9 @@ y_pred = nilai prediksi
     
   |          | train        | test         |
   |----------|--------------|--------------| 
-  | KNN      | 22882.422789 | 28096.473822 |
-  | RF       | 677.232434   | 1202.718556  |
-  | Boosting | 23968.08805	| 24587.114802 |
+  | KNN      | 60847.512857 | 93295.599863 |
+  | RF       |   678.321111 |  3338.271112 |
+  | Boosting | 22478.006109	| 29291.066335 |
 
 - Hasil evaluasi plot metrik MSE dengan bar chart dapat dilihat pada Gambar 10:
 
@@ -336,10 +342,10 @@ y_pred = nilai prediksi
 
     Berdasarkan Gambar 10. Terlihat bahwa algoritma model Random Forest (RF) memiliki hasil yang paling baik dibandingkan dengan algoritma model Boosting dan KNN. Hal ini ditunjukkan karena hasil pengujian model Random Forest memiliki nilai error terkecil dibandingkan dengan dua algoritma lainnya yang memiliki angka error yang besar diatas 20.000.
 
-- Tabel 6. Membuat prediksi dari data uji untuk melakukan pengujian:
+- Tabel 6. Prediksi dari data uji untuk melakukan pengujian:
 
-    |          | y_true	| prediksi_KNN | prediksi_RF | prediksi_Boosting |
-    |----------|--------|--------------|-------------|-------------------| 
-    | 3821      | 14000 | 14875.0      | 13911.1	   | 15402.5           |
+    | y_true | prediksi_KNN | prediksi_RF | prediksi_Boosting |
+    |--------|--------------|-------------|-------------------| 
+    |  14000 |      18250.0	|     14075.2 |           15554.1 |
 
-    Terlihat pada Tabel 6, bahwa prediksi dengan algoritma Random Forest (RF) pada kolom "prediksi_RF" memberikan nilai yang paling mendekati dengan nilai pada kolom "y_true".
+    Terlihat pada Tabel 6, bahwa prediksi dengan algoritma Random Forest (RF) memiliki performa paling baik, dapat dilihat nilai pada kolom "prediksi_RF" memberikan nilai yang paling mendekati dengan nilai pada kolom "y_true".
