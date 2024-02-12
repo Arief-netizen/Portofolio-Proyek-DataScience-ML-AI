@@ -105,11 +105,13 @@ Dapat diketahui tidak ada nilai 0 pada nilai minimum, sehingga dapat dikatakan t
 
 ## Exploratory Data Analysis - Menangani Outliers
 
-Terdapat beberapa outliers pada dataset, seperti contoh pada fitur Size yang divisualisasikan dengan boxplot dapat dilihat pada Gambar 1.
+Terdapat beberapa outliers pada dataset, seperti contoh pada Fitur Size yang divisualisasikan dengan boxplot yang dapat dilihat pada Gambar 1.
 
-![3  Screenshot 2022-09-23 214955](https://user-images.githubusercontent.com/110958395/191991680-9a345ce6-74c5-4ba2-919a-be7534959c75.jpg)
+<p>
+  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/cab08717-2e88-452a-b8f9-3f1e3e2067b0" width="500">
+</p>
 
-Gambar 1. Outliers fitur Size.
+Gambar 1. Outliers Fitur Size.
 
 Pada Gambar 1. Dalam menangani outliers digunakan metode IQR dengan membuat batas bawah dan batas atas dengan persamaan:
 
@@ -117,20 +119,21 @@ Batas bawah = Q1 - 1.5 * IQR
 
 Batas atas  = Q3 + 1.5 * IQR
 
-Kemudian persamaan tersebut diterapkan untuk menangani outliers yang dapat dilihat pada Gambar 2:
+Hasil penanganan outliers dengan metode IQR dapat dilihat pada Gambar 2:
 
-![4  Screenshot 2022-09-23 215017](https://user-images.githubusercontent.com/110958395/191989306-b63dfcc3-fe95-430c-958a-4a0cedb726c8.jpg)
+<p>
+  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/88a4a1d0-e047-4c14-afaa-e6e0008e81ed" width="500">
+</p>
 
-Gambar 2. Hasil penanganan outliers.
+Gambar 2. Hasil penanganan outliers Fitur Size.
 
 
 ## Exploratory Data Analysis - Univariate Analysis
 
 Tabel 3. Mengecek nilai sample pada fitur Area Type:
 
-|             | BHK         | Rent         | Size        | Bathroom    |
+| Area Type   | BHK         | Rent         | Size        | Bathroom    |
 |-------------|-------------|--------------|-------------|-------------|
-| Area Type   |             |              |             |             |
 | Built Area  | 2           | 2            | 2           | 2           |
 | Carpet Area | 1799        | 1799         | 1799        | 1799        |
 | Super Area  | 2330        | 2330         | 2330        | 2330        |
@@ -153,8 +156,9 @@ Berdasarkan Tabel 4, dapat dilihat bahwa fitur Floor dan Area Locality memiliki 
 ### Categorical Features
 
 **Fitur Area Type**
-
-![7  Screenshot 2022-09-23 224118](https://user-images.githubusercontent.com/110958395/192000297-d088a9ca-67d8-495f-b2a9-78fd38c9470c.jpg)
+<p>
+  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/47c120cc-a594-4f0b-b0fd-4b0f7759a484" width="500">
+</p>
 
 Gambar 3. Fitur Area Type.
 
@@ -162,7 +166,9 @@ Berdasarkan Gambar 3. Terdapat 2 kategori pada fitur Area Type, secara berurutan
 
 **Fitur City**
 
-![8  Screenshot 2022-09-23 224212](https://user-images.githubusercontent.com/110958395/192000311-5aa7de96-795b-4e73-abbe-10b93e6f01cf.jpg)
+<p>
+  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/6ce49301-fa71-4af4-982e-80e10f6bc1f0" width="500">
+</p>
 
 Gambar 4. Fitur City.
 
@@ -170,9 +176,11 @@ Berdasarkan Gambar 4. Urutan kategori letak rumah/apartemen/rumah susun di kota 
 
 **Fitur Furnishing Status**
 
-![9  Screenshot 2022-09-23 224237](https://user-images.githubusercontent.com/110958395/192000341-5bbc9661-7d8a-4435-b713-bd618f14da48.jpg)
+<p>
+  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/eb54de00-72c8-4e57-83c1-a67ed5638306" width="500">
+</p>
 
-Gambar 5. Fitur Funishing Status.
+Gambar 5. Fitur Furnishing Status.
 
 Berdasarkan Gambar 5. Fitur Furnishing Status terdiri dari 3 kategori dari yang paling sedikit ke yang paling banyak, yaitu: Furnished (ada perabotan), Unfurnished (tidak ada perabotan), Semi-Furnished (sedikit perabotan). Dapat disimpulkan bahwa rumah/apartemen/rumah susun lebih banyak yang memiliki sedikit perabotan dan tidak ada perabotan.
 
@@ -180,7 +188,9 @@ Berdasarkan Gambar 5. Fitur Furnishing Status terdiri dari 3 kategori dari yang 
 
 Menampilkan histogram pada masing-masing numerical features dapat dilihat pada Gambar 6:
 
-![10  Screenshot 2022-09-23 225735](https://user-images.githubusercontent.com/110958395/192003012-8d103698-591b-451b-bf6f-b22bc58d5d25.jpg)
+<p>
+  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/d431df67-4ae3-42a2-8cc2-4001ba3df1f9" width="800">
+</p>
 
 Gambar 6. Univariate numerical features.
 
@@ -196,7 +206,9 @@ Berdasarkan Gambar 6. Dapat disimpulkan bahwa:
 
 Mengecek rata-rata sewa rumah/apartemen/rumah susun terhadap masing-masing fitur untuk mengetahui pengaruh fitur kategori terhadap sewa rumah/apartemen/rumah susun:
 
-![11  Screenshot 2022-09-23 232225](https://user-images.githubusercontent.com/110958395/192007445-9c15382e-64c1-4134-a212-55f985c39045.jpg)
+<p>
+  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/6d9157bc-5ee9-4de0-8676-6c9863332a1d" width="600">
+</p>
 
 Gambar 7. Multivariate categorical features.
 
@@ -211,7 +223,9 @@ Berdasarkan Gambar 7. Dapat disimpulkan bahwa:
 
 Menampilkan kolerasi antar fitur numerical dapat dilihat pada Gambar 8:
 
-![12  Screenshot 2022-09-23 235352](https://user-images.githubusercontent.com/110958395/192013443-da1ce461-edff-4fc8-86a3-1b7843117d67.jpg)
+<p>
+  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/edfbb290-1741-4671-b2af-6b930e33312f" width="600">
+</p>
 
 Gambar 8. Multivariate numerical features.
 
@@ -290,7 +304,9 @@ Sehingga dalam pembuatan model machine learning pada proyek ini performa terbaik
 
 Metrik yang akan digunakan pada prediksi ini adalah MSE atau Mean Squared Error yang menghitung jumlah selisih kuadrat rata-rata nilai sebenarnya dengan nilai prediksi. MSE didefinisikan dalam persamaan yang dapat dilihat pada Gambar 9:
 
-![13  image](https://user-images.githubusercontent.com/110958395/192091611-00955e63-4b7f-404c-8196-becad93dc8f0.png)
+<p>
+  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/3689ac98-5381-436e-bd8b-ccd6888df4ec" width="300">
+</p>
 
 Gambar 9. Persamaan MSE.
 
@@ -312,7 +328,9 @@ y_pred = nilai prediksi
 
 - Hasil evaluasi plot metrik MSE dengan bar chart dapat dilihat pada Gambar 10:
 
-    ![15  image](https://user-images.githubusercontent.com/110958395/192092719-39d3707d-1026-460e-9218-b1d1fc477fec.png)
+    <p>
+      <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/41df8c44-b008-4835-a391-17103b81cc34" width="450">
+    </p>
     
     Gambar 10. Plot metrik MSE.
 
@@ -325,6 +343,3 @@ y_pred = nilai prediksi
     | 3821      | 14000 | 14875.0      | 13911.1	   | 15402.5           |
 
     Terlihat pada Tabel 6, bahwa prediksi dengan algoritma Random Forest (RF) pada kolom "prediksi_RF" memberikan nilai yang paling mendekati dengan nilai pada kolom "y_true".
-    
- ## Referensi
-[1] Putri Choirunisa (2020). Implementasi Artificial Inteligence untuk Memprediksi Harga Penjualan Rumah Menggunakan Metode Random Forest dan Flask (Studi kasus: Rohini, India). https://dspace.uii.ac.id/handle/123456789/29813 
