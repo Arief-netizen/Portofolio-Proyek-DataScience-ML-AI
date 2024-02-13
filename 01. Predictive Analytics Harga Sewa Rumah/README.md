@@ -1,7 +1,3 @@
-Open in Google Colab for better view:
-
-https://colab.research.google.com/drive/1UnF5IGhP20Kwk0cOO53i51mOf4pofmOb?usp=sharing
-
 <h1 align="center">Predictive Analytics Harga Sewa Rumah</h1>
 <p align="center">
   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/03834802-5fdb-42c0-b5b3-e0e29cbb505b" width="600">
