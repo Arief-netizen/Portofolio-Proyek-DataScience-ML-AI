@@ -60,20 +60,20 @@ Berdasarkan informasi dari [Kaggle](https://www.kaggle.com/datasets/iamsouravban
 
 Tabel 1. Informasi pada dataset:
 
-| Column             | Non-Null Count | Dtype   |
-|--------------------|----------------|---------|
-| Posted On          | 4746 non-null  | object  |
-| BHK                | 4746 non-null  | int64   |
-| Rent               | 4746 non-null  | int64   |
-| Size               | 4746 non-null  | int64   |
-| Floor              | 4746 non-null  | object  |
-| Area Type          | 4746 non-null  | object  |
-| Area Locality      | 4746 non-null  | object  |
-| City               | 4746 non-null  | object  |
-| Furnishing Status  | 4746 non-null  | object  |
-| Tenant Preferred   | 4746 non-null  | object  |
-| Bathroom           | 4746 non-null  | int64   |
-| Point of Contact   | 4746 non-null  | object  |
+| Column            | Non-Null Count | Dtype  |
+|-------------------|----------------|--------|
+| Posted On         | 4746 non-null  | object |
+| BHK               | 4746 non-null  | int64  |
+| Rent              | 4746 non-null  | int64  |
+| Size              | 4746 non-null  | int64  |
+| Floor             | 4746 non-null  | object |
+| Area Type         | 4746 non-null  | object |
+| Area Locality     | 4746 non-null  | object |
+| City              | 4746 non-null  | object |
+| Furnishing Status | 4746 non-null  | object |
+| Tenant Preferred  | 4746 non-null  | object |
+| Bathroom          | 4746 non-null  | int64  |
+| Point of Contact  | 4746 non-null  | object |
 
 Pada Tabel 1 dapat disimpulkan bahwa:
 -	Terdapat 4 kolom numerik dengan tipe data int64, yaitu: BHK, Rent, Size, dan Bathroom.
@@ -81,16 +81,16 @@ Pada Tabel 1 dapat disimpulkan bahwa:
 
 Tabel 2. Deskripsi statistik data:
 
-|       | BHK         | Rent         | Size        | Bathroom    |
+|       |         BHK |         Rent |        Size |    Bathroom |
 |-------|-------------|--------------|-------------|-------------| 
 | count | 4746.000000 | 4.746000e+03 | 4746.000000 | 4746.000000 |
-| mean  | 2.083860    | 3.499345e+04 | 967.490729	 | 1.965866    |
-| std   | 0.832256    | 7.810641e+04 | 634.202328	 | 0.884532    |
-| min   | 1.000000    | 1.200000e+03 | 10.000000	 | 1.000000    |
-| 25%   | 2.000000    | 1.000000e+04 | 550.000000  | 1.000000    |
-| 50%   | 2.000000    | 1.600000e+04 | 850.000000	 | 2.000000    |
-| 75%   | 3.000000    | 3.300000e+04 | 1200.000000 | 2.000000    |
-| max   | 6.000000    | 3.500000e+06 | 8000.000000 | 10.000000   |
+| mean  |    2.083860 | 3.499345e+04 |  967.490729 |    1.965866 |
+| std   |    0.832256 | 7.810641e+04 |  634.202328 |    0.884532 |
+| min   |    1.000000 | 1.200000e+03 |   10.000000 |    1.000000 |
+| 25%   |    2.000000 | 1.000000e+04 |  550.000000 |    1.000000 |
+| 50%   |    2.000000 | 1.600000e+04 |  850.000000 |    2.000000 |
+| 75%   |    3.000000 | 3.300000e+04 | 1200.000000 |    2.000000 |
+| max   |    6.000000 | 3.500000e+06 | 8000.000000 |   10.000000 |
 
 Berdasarkan Tabel 2, terdapat informasi statistik pada masing-masing kolom, antara lain:
 
@@ -116,7 +116,7 @@ Terdapat beberapa outliers pada dataset, seperti contoh pada Fitur Size yang div
 
 Gambar 1. Outliers Fitur Size.
 
-Pada Gambar 1. Dalam menangani outliers digunakan metode IQR dengan membuat batas bawah dan batas atas dengan persamaan:
+Dalam menangani outliers digunakan metode IQR dengan membuat batas bawah dan batas atas dengan persamaan:
 
 Batas bawah = Q1 - 1.5 * IQR
 Batas atas  = Q3 + 1.5 * IQR
@@ -134,24 +134,24 @@ Gambar 2. Hasil penanganan outliers Fitur Size.
 
 Tabel 3. Sample pada fitur Area Type:
 
-| Area Type   | BHK         | Rent         | Size        | Bathroom    |
-|-------------|-------------|--------------|-------------|-------------|
-| Built Area  | 2           | 2            | 2           | 2           |
-| Carpet Area | 1799        | 1799         | 1799        | 1799        |
-| Super Area  | 2330        | 2330         | 2330        | 2330        |
+| Area Type   | BHK  | Rent | Size | Bathroom |
+|-------------|------|------|------|----------|
+| Built Area  |    2 |    2 |    2 |        2 |
+| Carpet Area | 1799 | 1799 | 1799 |     1799 |
+| Super Area  | 2330 | 2330 | 2330 |     2330 |
 
 Dari Tabel 3, pada fitur Area Type, jumlah sample pada baris Built Area hanya memliki 2 sample, maka sample Built Area akan dihapus karena memiliki sample yang terlalu sedikit.
 
 Tabel 4. Uunique length pada masing-masing fitur:
 
-| Feature            | Unique Length |
-|--------------------|---------------|
-| Floor              | 332           |
-| Area Type          | 2             |
-| Area Locality      | 1971          |
-| City               | 6             | 
-| Furnishing Status  | 3             |
-| Tenant Preferred   | 3             |
+| Feature           | Unique Length |
+|-------------------|---------------|
+| Floor             |           332 |
+| Area Type         |             2 |
+| Area Locality     |          1971 |
+| City              |             6 | 
+| Furnishing Status |             3 |
+| Tenant Preferred  |             3 |
 
 Berdasarkan Tabel 4, Dapat dilihat pada output diatas bahwa fitur Floor dan Area Locality memiliki nilai unique length yang terlalu tinggi jika dibandingkan dengan fitur lainnya. Maka kedua fitur ini akan dihapus.
 
