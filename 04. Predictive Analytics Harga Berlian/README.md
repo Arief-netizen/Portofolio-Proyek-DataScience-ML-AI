@@ -1,7 +1,3 @@
-Open in Google Colab for better view:
-
-https://colab.research.google.com/drive/1Z1kEz_cm6dSNXP43gIoOiBK9pUYmeerL?usp=sharing
-
 <h1 align="center">Predictive Analytics Harga Berlian</h1>
 <p align="center">
   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/e99d2297-9d1b-4f08-a81c-4795baa04728" width="600">
