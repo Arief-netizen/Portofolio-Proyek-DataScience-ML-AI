@@ -306,7 +306,7 @@ Dalam mengembangkan model machine learning pada proyek ini digunakan 3 algoritma
       
       Parameter random_state digunakan untuk mengontrol random number generator yang digunakan.
       
-Sehingga dalam pembuatan model machine learning pada proyek ini performa terbaik ditunjukkan oleh algoritma Random Forest yang memiliki hasil akurasi sebesar 0.982 atau 98%.
+Sehingga dalam pembuatan model machine learning pada proyek ini performa terbaik ditunjukkan oleh algoritma Random Forest yang memiliki hasil score sebesar 0.982 atau 98%.
 
 
 ## Evaluation
