@@ -2,6 +2,16 @@
 <p align="center">
   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/e99d2297-9d1b-4f08-a81c-4795baa04728" width="600">
 </p>
+
+## Domain Proyek
+
+### Latar Belakang
+
+Berlian merupakan salah satu batu permata yang memiliki nilai estetika tinggi dan sering digunakan sebagai perhiasan. Nilai harga berlian dipengaruhi oleh sejumlah faktor, seperti karat, warna, kejernihan, dan potongan. Kombinasi unik dari faktor-faktor ini menciptakan keberagaman harga berlian di pasar.
+
+Meskipun pasar berlian memiliki daya tariknya sendiri, namun sulit bagi konsumen dan penjual untuk mendapatkan informasi yang akurat dan cepat mengenai harga berlian. Terdapat ketidakpastian dalam menentukan harga berlian yang sesuai dengan karakteristik tertentu. Oleh karena itu, diperlukan sebuah model prediksi harga berlian yang dapat memberikan perkiraan nilai berlian berdasarkan parameter-parameter kunci.
+
+Bagi penjual berlian, model prediksi harga berlian dapat menjadi alat yang efektif untuk menetapkan harga yang kompetitif dan optimal, meningkatkan kepercayaan konsumen, serta meminimalkan ketidakpastian dalam transaksi.
  
 ## Business Understanding
 
