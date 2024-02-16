@@ -2,7 +2,7 @@
 
 ## Deskripsi Proyek:
 
-Proyek ini bertujuan untuk melakukan analisis dan prediksi sentimen teks menggunakan pendekatan Deep Learning pada dataset IndoNLU. Dataset ini memuat teks beserta label sentimen (positif, negatif, netral). Dalam proyek ini, model Deep Learning, khususnya BERT (Bidirectional Encoder Representations from Transformers), digunakan untuk melatih dan menguji kemampuan model dalam mengenali dan mengklasifikasikan sentimen dari teks bahasa Indonesia.
+Proyek ini bertujuan untuk melakukan analisis dan prediksi sentimen teks menggunakan pendekatan Deep Learning pada dataset [IndoNLU](https://github.com/indobenchmark/indonlu). Dataset ini memuat teks beserta label sentimen (positif, negatif, netral). Dalam proyek ini, model Deep Learning, khususnya BERT (Bidirectional Encoder Representations from Transformers), digunakan untuk melatih dan menguji kemampuan model dalam mengenali dan mengklasifikasikan sentimen dari teks bahasa Indonesia.
 
 ## Langkah-Langkah Proyek:
 
