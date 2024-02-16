@@ -6,19 +6,19 @@ Proyek ini bertujuan untuk mengembangkan model Natural Language Processing (NLP)
 
 ## Langkah-Langkah Proyek:
 
-**1. Import Library dan Mengunduh Dataset:** Proyek dimulai dengan mengimpor library yang diperlukan dan memuat dataset BBC Articles Fulltext and Category.
+1. **Import Library dan Mengunduh Dataset:** Proyek dimulai dengan mengimpor library yang diperlukan dan memuat dataset BBC Articles Fulltext and Category.
 
-**2. Persiapan Data:** Data teks dari dataset BBC diolah dan dibersihkan dengan menghapus stopwords dan melakukan tokenisasi. Selanjutnya, data dipisahkan menjadi data pelatihan dan data validasi.
+2. **Persiapan Data:** Data teks dari dataset BBC diolah dan dibersihkan dengan menghapus stopwords dan melakukan tokenisasi. Selanjutnya, data dipisahkan menjadi data pelatihan dan data validasi.
 
-**3. One-Hot Encoding dan Pembagian Dataset:** Kategori teks diubah menjadi representasi biner dengan one-hot encoding. Selanjutnya, dataset dibagi menjadi data pelatihan dan data validasi dengan proporsi 80:20.
+3. **One-Hot Encoding dan Pembagian Dataset:** Kategori teks diubah menjadi representasi biner dengan one-hot encoding. Selanjutnya, dataset dibagi menjadi data pelatihan dan data validasi dengan proporsi 80:20.
 
-**4. Tokenisasi dan Padding:** Teks dibuat menjadi sekuens kata-kata menggunakan tokenizer, dan kemudian dilakukan padding agar memiliki panjang yang seragam.
+4. **Tokenisasi dan Padding:** Teks dibuat menjadi sekuens kata-kata menggunakan tokenizer, dan kemudian dilakukan padding agar memiliki panjang yang seragam.
 
-**5. Pembangunan Model:** Model klasifikasi teks dibangun menggunakan arsitektur deep learning yang terdiri dari lapisan-lapisan seperti Embedding, Conv1D, MaxPooling1D, LSTM, dan Dense. Model ini dirancang untuk mengklasifikasikan teks ke dalam salah satu dari enam kategori yang ada.
+5. **Pembangunan Model:** Model klasifikasi teks dibangun menggunakan arsitektur deep learning yang terdiri dari lapisan-lapisan seperti Embedding, Conv1D, MaxPooling1D, LSTM, dan Dense. Model ini dirancang untuk mengklasifikasikan teks ke dalam salah satu dari enam kategori yang ada.
 
-**6. Pelatihan dan Evaluasi Model:** Model dilatih menggunakan data pelatihan dan dievaluasi menggunakan data validasi. Proses ini dilakukan selama beberapa epoch, dan akurasi serta loss model dievaluasi.
+6. **Pelatihan dan Evaluasi Model:** Model dilatih menggunakan data pelatihan dan dievaluasi menggunakan data validasi. Proses ini dilakukan selama beberapa epoch, dan akurasi serta loss model dievaluasi.
 
-**7. Plotting Performa Model:** Performa model dievaluasi dengan memplot grafik akurasi dan loss pada data pelatihan dan validasi selama proses pelatihan.
+7. **Plotting Performa Model:** Performa model dievaluasi dengan memplot grafik akurasi dan loss pada data pelatihan dan validasi selama proses pelatihan.
 
 ## Hasil Proyek:
 
