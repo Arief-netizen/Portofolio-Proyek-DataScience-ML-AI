@@ -240,7 +240,7 @@ Gambar 3. Persamaan Recommender System Precision
 Adapun metrik evaluasi yang digunakan pada model Collaborative Filtering adalah Root Mean Squared Error (RMSE). Metode pengukuran ini berfungsi sebagai perkiraan nilai yang diamati dengan mengukur perbedaan nilai prediksi model. Root Mean Squared Error adalah hasil dari akar kuadrat dari Mean Squared Error. Keakuratan metode estimasi kesalahan pengukuran diwakili oleh nilai RMSE yang kecil. Semakin kecil (mendekati 0) nilai RMSE maka hasil prediksi akan semakin akurat. Persamaan metrik RMSE ditunjukkan pada gambar berikut:
 
 <p>
-  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/9e738ca0-5da5-4a25-9037-aee1cf035e4a" width="300">
+  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/9e738ca0-5da5-4a25-9037-aee1cf035e4a" width="200">
 </p>
 
 Gambar 4. Persamaan metrik RMSE
