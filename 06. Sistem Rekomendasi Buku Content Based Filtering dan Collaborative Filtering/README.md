@@ -1,6 +1,6 @@
 <h1 align="center">Sistem Rekomendasi Buku</h1>
 <p align="center">
-  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/05dfa0cf-1b9a-4d63-a855-4f77f2582c5e" width="800">
+  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/05dfa0cf-1b9a-4d63-a855-4f77f2582c5e" width="700">
 </p>
 
 ## Project Overview
