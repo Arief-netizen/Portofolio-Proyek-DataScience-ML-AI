@@ -1,6 +1,6 @@
 <h1 align="center">Sistem Rekomendasi Buku</h1>
 <p align="center">
-  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/05dfa0cf-1b9a-4d63-a855-4f77f2582c5e" width="600">
+  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/05dfa0cf-1b9a-4d63-a855-4f77f2582c5e" width="800">
 </p>
 
 ## Project Overview
@@ -20,7 +20,7 @@ Sistem rekomendasi buku merupakan sistem yang merekomendasikan buku kepada pengg
 - Menghasilkan sejumlah rekomendasi buku yang belum pernah dibaca sebelumnya dan mungkin disukai pengguna berdasarkan preferensi pengguna lain dengan teknik algoritma Collaborative Filtering.
 
 
-### Solution statements
+### Solution Statements
 
 Solusi yang dibuat yaitu dengan menggunakan 2 algoritma sistem rekomendasi pada Machine Learning. Adapun kedua algoritma tersebut yaitu:
 
