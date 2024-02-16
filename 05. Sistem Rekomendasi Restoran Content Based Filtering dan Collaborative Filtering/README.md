@@ -118,7 +118,7 @@ Pada bagian Data Understanding sebelumnya terdapat 9 berkas beformat csv, yang k
 
 ## Data Preparation Model Content Based Filtering
 
-1. Mengatasi Missing Value
+**1. Mengatasi Missing Value**
 
    Tabel 5. Missing value setelah proses penggabungan.
 
@@ -133,17 +133,17 @@ Pada bagian Data Understanding sebelumnya terdapat 9 berkas beformat csv, yang k
 
    Berdasarkan Tabel 5, terdapat 288 missing value pada fitur 'Rcuisine' (jenis masakan). 288 dari 1.331 merupakan jumlah yang signifikan. Sebenarnya sayang jika data missing value ini dilakukan drop. Namun, tidak dapat diidentifikasi nama masakan yang tidak memiliki data 'Rcuisine' ini termasuk ke dalam jenis masakan mana. Oleh karena itu, akan dilakukan fungsi drop pada missing value ini.
 
-2. Menyamakan Jenis Masakan
+**2. Menyamakan Jenis Masakan**
    
    Sebelum masuk tahap akhir (pemodelan), perlu untuk menyamakan nama masakan. Terkadang, masakan yang sama memiliki nama atau kategori yang berbeda. Jika dibiarkan, hal ini bisa menyebabkan bias pada data.
 
    Diantara semua jenis masakan pada data, ada satu yang menarik, yaitu jenis masakan bernama Game dari restoran KFC. Restoran KFC memiliki dua jenis masakan yang berbeda, yaitu Game dan American. Dalam sistem rekomendasi yang akan dikembangkan, penting untuk memastikan satu restoran mewakili satu jenis masakan. Tujuannya supaya tidak terjadi dobel atau rangkap jenis dalam satu restoran. Sehingga, sistem dapat merekomendasikan resto berdasarkan jenis masakannya. Dalam hal ini, KFC lebih cocok disebut sebagai restoran dengan jenis masakan American. Jadi, perlu mengganti jenis Game dengan American.  
 
-3. Menghapus data duplikat
+**3. Menghapus data duplikat**
    
    Menghapus data duplikat perlu dilakukan karena hanya akan digunakan data unik untuk dimasukkan ke dalam proses pemodelan. Oleh karena itu, perlu menghapus data yang duplikat. Dalam hal ini, fitur 'placeID' yang duplikat akan dibuang.
    
-4. Konversi data series menjadi list
+**4. Konversi data series menjadi list**
    
    Langkah selanjutnya adalah melakukan konversi data series menjadi list untuk kemudian membuat dictionary untuk menentukan pasangan key-value pada data yang telah dikonversi menjadi list sebelumnya.
 
