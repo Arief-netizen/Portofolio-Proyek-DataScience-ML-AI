@@ -6,11 +6,11 @@ Proyek ini bertujuan untuk melakukan analisis dan prediksi sentimen teks menggun
 
 ## Langkah-Langkah Proyek:
 
-1. Memuat dan Inisialisasi Model Pre-trained: Proyek dimulai dengan memuat model BERT bahasa Indonesia yang telah dilatih sebelumnya. Tokenizer dan konfigurasi model juga diinisialisasi untuk proses berikutnya.
+1. **Memuat dan Inisialisasi Model Pre-trained:** Proyek dimulai dengan memuat model BERT bahasa Indonesia yang telah dilatih sebelumnya. Tokenizer dan konfigurasi model juga diinisialisasi untuk proses berikutnya.
 
-2. Persiapan Dataset Analisis Sentimen: Membagi dataset menjadi set pelatihan, validasi, dan pengujian. Tokenizer digunakan untuk mengonversi teks ke dalam subwords, dan dataset dipersiapkan untuk digunakan pada model.
+2. **Persiapan Dataset Analisis Sentimen:** Membagi dataset menjadi set pelatihan, validasi, dan pengujian. Tokenizer digunakan untuk mengonversi teks ke dalam subwords, dan dataset dipersiapkan untuk digunakan pada model.
 
-3. Pengujian pada Contoh Kalimat: Sebuah contoh kalimat diuji pada model untuk mengevaluasi kemampuan model dalam memprediksi sentimen. Proses ini memberikan gambaran awal tentang performa model.
+3. **Pengujian pada Contoh Kalimat:** Sebuah contoh kalimat diuji pada model untuk mengevaluasi kemampuan model dalam memprediksi sentimen. Proses ini memberikan gambaran awal tentang performa model.
 
 4. **Fine Tuning dan Evaluasi:** Model dilatih dengan dataset pelatihan, dan kemudian dievaluasi pada dataset validasi untuk mengukur performa. Proses ini dilakukan sejumlah epoch untuk meningkatkan akurasi model.
 
