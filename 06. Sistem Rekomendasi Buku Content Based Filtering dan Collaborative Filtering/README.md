@@ -93,13 +93,13 @@ Variabel-variabel pada Book Recommendation Dataset adalah sebagai berikut:
    |       | User-ID        | Book-Rating    |
    |-------|----------------|----------------|
    | count | 1149780.000000 | 1149780.000000 |
-   | mean  | 140386.395126	 | 2.866950       |
+   | mean  | 140386.395126  | 2.866950       |
    | std   | 80562.277719	  | 3.854184       |
    | min   | 2.000000	      | 0.000000       |
    | 25%   | 70345.000000   | 0.000000       |
-   | 50%   | 141010.000000	 | 0.000000       |
-   | 75%   | 211028.000000	 | 7.000000       |
-   | max   | 278854.000000	 | 10.000000      |
+   | 50%   | 141010.000000  | 0.000000       |
+   | 75%   | 211028.000000  | 7.000000       |
+   | max   | 278854.000000  | 10.000000      |
 
    Berdasarkan Tabel 3, dapat diketahui bahwa nilai maksimum Book-Rating adalah 10 dan nilai minimumnya adalah 0.
    
@@ -125,7 +125,7 @@ Dapat dilihat sebelumnya pada bagian Exploratory Data Analysis - Univariate Anal
 
 ## Data Preparation Model Content Based Filtering
 
-1. Mengatasi Missing Value
+1. **Mengatasi Missing Value**
 
    Tabel 5. Missing value setelah proses penggabungan
 
@@ -141,10 +141,13 @@ Dapat dilihat sebelumnya pada bagian Exploratory Data Analysis - Univariate Anal
 
    Berdasarkan Tabel 5, dapat diketahui terdapat 5.287 missing value pada fitur Book-Title (judul buku), Book-Author (penulis), Year-Of-Publication (tahun publikasi buku), dan Publisher (penerbit). Maka data yang memiliki missing value ini akan dihapus agar pembuatan model akan menjadi lebih baik dan dapat meningkatkan performa model.
 
-2. Menghapus data duplikat
+2. **Menghapus data duplikat**
+   
    Menghapus data duplikat perlu dilakukan karena hanya akan digunakan data unik untuk dimasukkan ke dalam proses pemodelan. Oleh karena itu, perlu menghapus data yang duplikat. Dalam hal ini, fitur ISBN yang duplikat akan dibuang.
     
-3. Langkah selanjutnya adalah melakukan konversi data series menjadi list untuk kemudian membuat dictionary untuk menentukan pasangan key-value pada data yang telah dikonversi menjadi list sebelumnya.
+4. **Konversi data series menjadi list**
+   
+   Langkah selanjutnya adalah melakukan konversi data series menjadi list untuk kemudian membuat dictionary untuk menentukan pasangan key-value pada data yang telah dikonversi menjadi list sebelumnya.
 
 ## Modeling and Result
 
@@ -174,18 +177,18 @@ Setelah dilakukan tahapan-tahapan tersebut, dilakukan uji coba dengan menghasilk
 
 Tabel 6. Hasil rekomendasi buku Content Based Filtering
 
-| No.| Books Title                                 | Books Author     | Year | Publisher             |
-|----|---------------------------------------------|------------------|------|-----------------------|
-| 1  | The Haunting                                | Paul Doherty	    | 1998	| Headline              |
-| 2  | Waking Beauty                               |	Paul Witcover	   | 1997	| Harpercollins         |   
-| 3  | Tales of Terror and the Supernatural        |	Wilkie Collins   |	1972	| Dover Publications    |
-| 4  | Magic Terror: Seven Tales                   |	Peter Straub     |	2001	| Fawcett Books         |
-| 5  | A Winter Haunting	                          | Dan Simmons      |	2002	| HarperTorch           |
-| 6  | Haunting Rachel	                            | KAY HOOPER       |	1999	| Bantam                |
-| 7  | CHRISTOPHER PIKE'S TALES OF TERROR #2       |	Christopher Pike	| 1998	| Simon Pulse           |
-| 8  | The Haunting of Hill House                  |	Shirley Jackson  |	1984	| Penguin Books         |
-| 9  | Great Tales of Terror (A Watermill Classic) |	Edgar Allan Poe  |	1993 |	Troll  Communications |
-| 10 | Tales Of Passion Tales Of Woe	              | Sandra Gulland   |	1999 |	Touchstone            |
+| No.| Books Title                                 | Books Author      | Year | Publisher             |
+|----|---------------------------------------------|-------------------|------|-----------------------|
+| 1  | The Haunting                                | Paul Doherty	     | 1998	| Headline              |
+| 2  | Waking Beauty                               |	Paul Witcover    | 1997	| Harpercollins         |   
+| 3  | Tales of Terror and the Supernatural        |	Wilkie Collins   | 1972 | Dover Publications    |
+| 4  | Magic Terror: Seven Tales                   |	Peter Straub     | 2001 | Fawcett Books         |
+| 5  | A Winter Haunting	                         | Dan Simmons       | 2002 | HarperTorch           |
+| 6  | Haunting Rachel	                           | KAY HOOPER        | 1999 | Bantam                |
+| 7  | CHRISTOPHER PIKE'S TALES OF TERROR #2       |	Christopher Pike | 1998	| Simon Pulse           |
+| 8  | The Haunting of Hill House                  |	Shirley Jackson  | 1984 | Penguin Books         |
+| 9  | Great Tales of Terror (A Watermill Classic) |	Edgar Allan Poe  | 1993 |	Troll  Communications |
+| 10 | Tales Of Passion Tales Of Woe	             | Sandra Gulland    | 1999 |	Touchstone            |
 
 Berdasarkan Tabel 6, dapat diketahui bahwa dari 10 buku yang direkomendasikan memiliki kemiripan dengan buku yang berjudul **Waking Up Screaming: Haunting Tales of Terror**.
         
