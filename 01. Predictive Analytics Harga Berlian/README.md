@@ -37,7 +37,7 @@ Bagi penjual berlian, model prediksi harga berlian dapat menjadi alat yang efekt
 
 ## Data Understanding
 
-Dataset yang digunakan pada proyek ini adalah dataset *Diamonds* yang didapat dari situs [Kaggle](https://www.kaggle.com/datasets/shivam2503/diamonds). Dalam dataset ini berisi harga dan atribut lainnya dari hampir 54.000 berlian.
+Dataset yang digunakan pada proyek ini adalah dataset Diamonds yang didapat dari situs [Kaggle](https://www.kaggle.com/datasets/shivam2503/diamonds). Dalam dataset ini berisi harga dan atribut lainnya dari hampir 54.000 berlian.
 
 
 ## Exploratory Data Analysis - Deskripsi Variabel
