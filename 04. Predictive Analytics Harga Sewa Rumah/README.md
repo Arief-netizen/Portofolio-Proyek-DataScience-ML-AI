@@ -38,7 +38,7 @@ Bagi calon konsumen tentunya sangat konservatif mengenai harga dan tipe rumah ya
 
 ## Data Understanding
 
-Dataset yang digunakan pada proyek ini adalah dataset *House Rent Prediction Dataset* yang didapat dari situs [Kaggle](https://www.kaggle.com/datasets/iamsouravbanerjee/house-rent-prediction-dataset). Dalam Dataset ini memiliki 4.746 rumah/apartemen/rumah susun yang tersedia untuk disewakan dengan berbagai karakteristik yang berbeda. Karakteristik yang dimaksud disini adalah fitur non-numerik seperti Floor, Area Type, Area Locality, City, Furnishing Status, Tenant Preferred, dan  Point of Contact, serta fitur numerik seperti BHK, Rent, Size, dan Bathroom. Kesebelas fitur ini merupakan fitur yang akan digunakan dalam menemukan pola dan data.
+Dataset yang digunakan pada proyek ini adalah dataset House Rent Prediction Dataset yang didapat dari situs [Kaggle](https://www.kaggle.com/datasets/iamsouravbanerjee/house-rent-prediction-dataset). Dalam Dataset ini memiliki 4.746 rumah/apartemen/rumah susun yang tersedia untuk disewakan dengan berbagai karakteristik yang berbeda. Karakteristik yang dimaksud disini adalah fitur non-numerik seperti Floor, Area Type, Area Locality, City, Furnishing Status, Tenant Preferred, dan  Point of Contact, serta fitur numerik seperti BHK, Rent, Size, dan Bathroom. Kesebelas fitur ini merupakan fitur yang akan digunakan dalam menemukan pola dan data.
 
 
 ## Exploratory Data Analysis - Deskripsi Variabel
