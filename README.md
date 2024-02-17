@@ -4,7 +4,7 @@ Portofolio ini mencakup serangkaian project di bidang analisis data dan machine 
 
 ## Predictive Analytics
 - ### Predictive Analytics Harga Berlian
-  [GitHub Project](https://github.com/Arief-netizen/Portofolio-Project-DataScience-ML-AI/tree/main/01.%20Predictive%20Analytics%20Harga%20Berlian)
+  [GitHub Project](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/tree/main/01.%20Predictive%20Analytics%20Harga%20Berlian)
   
   Project ini bertujuan untuk memprediksi harga berlian dengan menggunakan teknik analisis prediktif terhadap berbagai faktor seperti karat, warna, kejernihan, dan potongan. Kombinasi unik dari faktor-faktor ini menciptakan keberagaman harga berlian.
   
