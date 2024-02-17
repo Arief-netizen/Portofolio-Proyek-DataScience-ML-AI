@@ -2,7 +2,7 @@
 
 ## Deskripsi Proyek:
 
-Proyek ini bertujuan untuk mengembangkan model Natural Language Processing (NLP) menggunakan Deep Learning, khususnya Convolutional Neural Network (CNN) dan Long Short-Term Memory (LSTM) mengklasifikasikan teks artikel dari BBC berdasarkan kategori atau topiknya. Dataset yang digunakan adalah [BBC Articles Fulltext and Category](https://www.kaggle.com/datasets/yufengdev/bbc-fulltext-and-category), yang berisi artikel dari berbagai kategori seperti bisnis, hiburan, politik, olahraga, dan teknologi.
+Proyek ini bertujuan untuk mengembangkan model Natural Language Processing (NLP) menggunakan Deep Learning, khususnya Convolutional Neural Network (CNN) dan Long Short-Term Memory (LSTM) untuk mengklasifikasikan teks artikel dari BBC berdasarkan kategori atau topiknya. Dataset yang digunakan adalah [BBC Articles Fulltext and Category](https://www.kaggle.com/datasets/yufengdev/bbc-fulltext-and-category), yang berisi artikel dari berbagai kategori seperti bisnis, hiburan, politik, olahraga, dan teknologi.
 
 ## Langkah-Langkah Proyek:
 
