@@ -1,4 +1,4 @@
-[![author](https://img.shields.io/badge/author-Arief--netizen-red.svg)](https://www.linkedin.com/in/ariefbaihaqy) [![LinkedIn](https://img.shields.io/badge/LinkedIn-ariefbaihaqy-blue)](https://www.linkedin.com/in/ariefbaihaqy) [![python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-365/)
+[![author](https://img.shields.io/badge/author-Arief--netizen-red.svg)](https://www.linkedin.com/in/ariefbaihaqy) [![LinkedIn](https://img.shields.io/badge/LinkedIn-ariefbaihaqy-blue)](https://www.linkedin.com/in/ariefbaihaqy) [![python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-370/)
 
 <p align="center">
   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/cdfe6568-2924-4ea2-b2fd-870917b9dbb2" >
