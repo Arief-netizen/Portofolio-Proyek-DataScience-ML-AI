@@ -2,7 +2,7 @@
 
 ## Deskripsi Proyek:
 
-Proyek ini merupakan implementasi sistem deteksi masker pada gambar wajah manusia dengan menggunakan teknik Transfer Learning dari pre-trained model InceptionV3. Dataset yang digunakan adalah [Face Mask Detection](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection) yang berisi gambar-gambar wajah manusia dengan kategori menggunakan masker, salah menggunakan masker, dan tidak menggunakan masker. Proyek ini melibatkan tahap-tahap seperti memuat dataset, parsing anotasi, data preprocessing, pengembangan model menggunakan Transfer Learning, pelatihan model, evaluasi performa model, penyimpanan model untuk keperluan deployment, dan integrasi model ke website.
+Proyek ini merupakan implementasi sistem deteksi masker pada gambar wajah manusia dengan menggunakan teknik Transfer Learning dari pre-trained model InceptionV3 dengan tujuan dapat mendeteksi penggunaan masker wajah pada suatu individu, apakah menggunakan masker, tidak menggunakan masker, atau salah menggunakan masker. Dataset yang digunakan adalah [Face Mask Detection](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection) yang berisi gambar-gambar wajah manusia dengan kategori menggunakan masker, salah menggunakan masker, dan tidak menggunakan masker. Proyek ini melibatkan tahap-tahap seperti memuat dataset, parsing anotasi, data preprocessing, pengembangan model menggunakan Transfer Learning, pelatihan model, evaluasi performa model, penyimpanan model untuk keperluan deployment, dan integrasi model ke website.
 
 ## Langkah-Langkah Proyek:
 
