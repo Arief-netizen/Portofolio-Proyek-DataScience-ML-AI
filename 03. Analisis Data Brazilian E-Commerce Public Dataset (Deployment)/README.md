@@ -4,7 +4,7 @@
 </p>
 
 **Tujuan Proyek:**
-Proyek ini bertujuan untuk melakukan analisis mendalam terhadap [Brazilian E-Commerce Public Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) hingga website deployment menggunakan streamlit. Data ini mencakup informasi seputar pelanggan, produk, pesanan, pembayaran, dan lokasi geografis. Analisis ini dimaksudkan untuk memberikan wawasan yang berharga dalam mendukung pengambilan keputusan bisnis.
+Proyek ini bertujuan untuk melakukan analisis mendalam terhadap [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) hingga website deployment menggunakan streamlit. Data ini mencakup informasi seputar pelanggan, produk, pesanan, pembayaran, dan lokasi geografis. Analisis ini dimaksudkan untuk memberikan wawasan yang berharga dalam mendukung pengambilan keputusan bisnis.
 
 ## Pertanyaan Bisnis
 
@@ -26,7 +26,7 @@ Proyek ini bertujuan untuk melakukan analisis mendalam terhadap [Brazilian E-Com
 
 ## Library dan Data Wrangling
 
-Proyek ini menggunakan beberapa library seperti pandas, matplotlib, seaborn, dan lainnya. Data awal diunduh dari [Brazilian E-Commerce Public Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) kemudian dilakukan beberapa proses seperti data wrangling untuk membersihkan data, menangani missing values, dan menggabungkan beberapa dataset yang saling berkaitan.
+Proyek ini menggunakan beberapa library seperti pandas, matplotlib, seaborn, dan lainnya. Data awal diunduh dari [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) kemudian dilakukan beberapa proses seperti data wrangling untuk membersihkan data, menangani missing values, dan menggabungkan beberapa dataset yang saling berkaitan.
 
 ## Exploratory Data Analysis (EDA)
 
