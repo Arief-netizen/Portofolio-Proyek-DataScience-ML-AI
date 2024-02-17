@@ -1,4 +1,11 @@
-# Portofolio Data Science Arief Baihaqy
+[![author](https://img.shields.io/badge/author-Arief--netizen-red.svg)](https://www.linkedin.com/in/ariefbaihaqy) [![LinkedIn](https://img.shields.io/badge/LinkedIn-ariefbaihaqy-blue)](https://www.linkedin.com/in/ariefbaihaqy) [![python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-365/)
+
+<p align="center">
+  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/cdfe6568-2924-4ea2-b2fd-870917b9dbb2" >
+</p>
+
+# Imam Arief Al Baihaqy
+<sub>*Data Science Enthusiast*</sub>
 
 Portofolio ini mencakup serangkaian project di bidang analisis data dan machine learning yang saya kembangkan. Serangkaian project tersebut dikelompokkan dalam kategori yang berbeda, mencakup berbagai aspek seperti sistem prediksi, sistem rekomendasi, analisis sentimen teks, implementasi model dalam konteks real-time detection, hingga website deployment sebagai bentuk implementasi di dunia nyata. Setiap proyek mencerminkan keterampilan dan pengetahuan saya dalam dunia data science.
 
