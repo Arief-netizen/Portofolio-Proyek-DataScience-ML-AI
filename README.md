@@ -1,6 +1,6 @@
 # Portofolio Data Science Arief Baihaqy
 
-Portofolio ini mencakup serangkaian project di bidang analisis data dan machine learning yang saya kembangkan. Serangkaian project tersebut dikelompokkan dalam kategori yang berbeda, mencakup berbagai aspek seperti sistem prediksi, sistem rekomendasi, analisis sentimen teks, implementasi model dalam konteks real-time detection, hingga website deployment sebagai bentuk implementasi di dunia nyata. Setiap proyek mencerminkan keterampilan dan pengetahuan saya dalam dunia data science, dari penggunaan metode analisis hingga penerapan model neural networks.
+Portofolio ini mencakup serangkaian project di bidang analisis data dan machine learning yang saya kembangkan. Serangkaian project tersebut dikelompokkan dalam kategori yang berbeda, mencakup berbagai aspek seperti sistem prediksi, sistem rekomendasi, analisis sentimen teks, implementasi model dalam konteks real-time detection, hingga website deployment sebagai bentuk implementasi di dunia nyata. Setiap proyek mencerminkan keterampilan dan pengetahuan saya dalam dunia data science.
 
 ## Predictive Analytics
 - ### Predictive Analytics Harga Berlian
