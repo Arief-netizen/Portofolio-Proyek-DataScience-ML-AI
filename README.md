@@ -54,12 +54,12 @@ Portofolio ini mencakup serangkaian project di bidang analisis data dan machine 
 
 ## Natural Language Processing (NLP)
 - ### Analisis dan Prediksi Sentimen Teks dengan SVM
-  [GitHub Project](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/tree/main/03.%20Analisis%20Data%20Brazilian%20E-Commerce%20Public%20Dataset%20(Deployment))
+  [GitHub Project](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/tree/main/08.%20Analisis%20dan%20Prediksi%20Sentimen%20Teks%20dengan%20SVM)
   
   Project ini bertujuan untuk melakukan analisis sentimen teks menggunakan metode Support Vector Machine (SVM) pada dataset [IndoNLU](https://github.com/indobenchmark/indonlu). Dataset ini berisi teks dalam bahasa indonesia dengan label sentimen positif, negatif, dan netral. Tujuan utama project ini adalah mengembangkan model klasifikasi sentimen yang dapat memprediksi sentimen dari suatu teks, apakah tergolong sebagai teks yang positif, negatif, atau netral.
 
 - ### Analisis dan Prediksi Sentimen Teks dengan Deep Learning
-  [GitHub Project](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/tree/main/03.%20Analisis%20Data%20Brazilian%20E-Commerce%20Public%20Dataset%20(Deployment))
+  [GitHub Project](https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/tree/main/09.%20Analisis%20dan%20Prediksi%20Sentimen%20Teks%20dengan%20Deep%20Learning)
   
   Project ini bertujuan untuk melakukan analisis dan prediksi sentimen teks menggunakan pendekatan Deep Learning pada dataset [IndoNLU](https://github.com/indobenchmark/indonlu). Dataset ini memuat teks dalam bahasa indonesia beserta label sentimen (positif, negatif, netral). Dalam project ini, model Deep Learning, khususnya BERT (Bidirectional Encoder Representations from Transformers) yang merupakan model neural networks, digunakan untuk melatih dan menguji kemampuan model dalam mengenali dan mengklasifikasikan sentimen dari teks bahasa Indonesia.
 
