@@ -1,6 +1,6 @@
 <h1 align="center">Predictive Analytics Harga Berlian</h1>
 <p align="center">
-  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/e99d2297-9d1b-4f08-a81c-4795baa04728" width="600">
+  <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/e99d2297-9d1b-4f08-a81c-4795baa04728" width="500">
 </p>
 
 ## Domain Proyek
