@@ -32,3 +32,19 @@ Proyek ini merupakan implementasi sistem deteksi masker pada gambar wajah manusi
 Proyek ini menghasilkan sebuah sistem deteksi masker yang dapat digunakan untuk mendeteksi apakah seseorang menggunakan masker dengan benar, salah menggunakan masker, atau tidak menggunakan masker sama sekali. Model yang dikembangkan memiliki tingkat akurasi yang baik, yaitu sekitar 97% pada data validasi, dan loss pada data validasi sekitar 0.3.
 
 Dengan demikian, meskipun proyek ini telah mencapai tingkat akurasi yang baik, penyempurnaan pada penanganan kondisi gelap dapat menjadi fokus untuk meningkatkan daya tanggap dan kehandalan sistem deteksi masker secara keseluruhan.  Penyempurnaan lebih lanjut dapat dilakukan dengan pemilihan dataset yang mencakup berbagai kondisi pencahayaan, termasuk kondisi gelap, dapat menjadi langkah yang lebih proaktif dalam melatih model agar lebih toleran terhadap variasi pencahayaan. Pengumpulan data tambahan yang mencakup situasi gelap atau kondisi pencahayaan yang ekstrem juga dapat memperkaya kapabilitas model deteksi masker ini.
+
+### Setup Local
+
+1. Buka folder project Sistem Deteksi Masker dengan text editor.
+
+2. Buka terminal pada text editor dan install dependencies yang terletak di file requirements.txt dengan command:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Lalu jalankan aplikasi pada terminal dengan command:
+    ```bash
+    flask run
+    ```
+
+4. Jalankan http://127.0.0.1:5000 pada browser.
