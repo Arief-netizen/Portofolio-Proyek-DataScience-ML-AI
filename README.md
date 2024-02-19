@@ -7,7 +7,7 @@
 # Imam Arief Al Baihaqy
 <sub>*Data Science Enthusiast*</sub>
 
-Portofolio ini mencakup serangkaian project di bidang analisis data dan machine learning yang saya kembangkan. Serangkaian project tersebut dikelompokkan dalam kategori yang berbeda, mencakup berbagai aspek seperti sistem prediksi, sistem rekomendasi, analisis sentimen teks, implementasi model dalam konteks real-time detection, hingga website deployment sebagai bentuk implementasi di dunia nyata. Setiap proyek mencerminkan keterampilan dan pengetahuan saya dalam dunia data science.
+Portofolio ini mencakup serangkaian project di bidang analisis data dan machine learning yang saya kembangkan. Serangkaian project tersebut dikelompokkan dalam kategori yang berbeda, mencakup berbagai aspek seperti sistem prediksi, sistem rekomendasi, analisis sentimen teks, implementasi model dalam konteks real-time detection, hingga website deployment sebagai bentuk implementasi di dunia nyata. Setiap project mencerminkan keterampilan dan pengetahuan saya dalam dunia data science.
 
 ## Predictive Analytics
 - ### Predictive Analytics Harga Berlian
