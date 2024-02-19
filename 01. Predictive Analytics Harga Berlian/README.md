@@ -56,7 +56,7 @@ Berdasarkan informasi dari [Kaggle](https://www.kaggle.com/datasets/shivam2503/d
 - table: merepresentasikan lebar bagian atas berlian relatif terhadap titik terlebar 43-95).
 
 
-Tabel 1. Informasi pada dataset:
+Tabel 1. Informasi pada dataset.
 
 | Column  | Non-Null Count | Dtype   |
 |---------|----------------|---------|
@@ -78,7 +78,7 @@ Dari output diatas terlihat bahwa:
 - Terdapat 6 fitur numerik dengan tipe data float64 yaitu: carat, depth, table, x, y, dan z. Ini merupakan fitur numerik yang merupakan hasil pengukuran secara fisik.
 - Terdapat 1 fitur numerik dengan tipe data int64, yaitu: price. fitur ini merupakan fitur target.
 
-Tabel 2. Deskripsi statistik data:
+Tabel 2. Deskripsi statistik data.
 
 |       |        carat |        depth |        table |        price |            x |            y |            z |
 |-------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
@@ -129,7 +129,7 @@ Dalam menangani outliers digunakan metode IQR dengan membuat batas bawah dan bat
 Batas bawah = Q1 - 1.5 * IQR
 Batas atas  = Q3 + 1.5 * IQR
 
-Hasil penanganan outliers dengan metode IQR dapat dilihat pada Gambar 3 dan Gambar 4:
+Hasil penanganan outliers dengan metode IQR dapat dilihat pada Gambar 3 dan Gambar 4.
 
 <p>
   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/44241d99-2dce-4603-825a-fd452ed5900e" width="500">
@@ -184,7 +184,7 @@ Dari penjelasan pada bagian Exploratory Data Analysis - Deskripsi Variabel sebel
 
 ### Numerical Features
 
-Histogram pada masing-masing numerical features dapat dilihat pada Gambar 8:
+Histogram pada masing-masing numerical features dapat dilihat pada Gambar 8.
 
 <p>
   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/364974ef-10ae-4bb4-94d1-88904311e4c3" width="800">
@@ -232,7 +232,7 @@ Berdasarkan hal tersebut, dapat diketahui bahwa fitur kategori memiliki pengaruh
 
 Gambar 10. Numerical features pairplot.
 
-Berdasarkan Gambar 10. Pada pola sebaran data grafik pairplot, terlihat fitur carat, x, y, dan z memiliki korelasi yang tinggi dengan fitur price. Sedangkan kedua fitur lainnya yaitu depth dan table terlihat memiliki korelasi yang lemah karena sebarannya tidak membentuk pola.
+Berdasarkan Gambar 10. Pada pola sebaran data grafik pairplot, terlihat fitur carat, x, y, dan z memiliki korelasi yang tinggi dengan fitur price karena sebarannya membentuk pola. Sedangkan kedua fitur lainnya yaitu depth dan table terlihat memiliki korelasi yang lemah karena sebarannya tidak membentuk pola.
 
 **Melihat korelasi antar fitur numerik dengan correlation matrix**
 
@@ -323,7 +323,7 @@ Sehingga dalam pembuatan model machine learning pada proyek ini score terbaik di
 
 ## Evaluation
 
-Metrik yang digunakan pada prediksi ini adalah MSE atau Mean Squared Error yang menghitung jumlah selisih kuadrat rata-rata nilai sebenarnya dengan nilai prediksi. MSE didefinisikan dalam persamaan yang dapat dilihat pada Gambar 9:
+Metrik yang digunakan pada prediksi ini adalah MSE atau Mean Squared Error yang menghitung jumlah selisih kuadrat rata-rata nilai sebenarnya dengan nilai prediksi. MSE didefinisikan dalam persamaan yang dapat dilihat pada Gambar 9.
 
 <p>
   <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/bf7ad560-ff59-4004-9a73-7f1e1775b9fb" width="300">
@@ -339,7 +339,7 @@ yi = nilai sebenarnya
 
 y_pred = nilai prediksi
 
-- Tabel 5. Hasil evaluasi MSE pada data latih dan data test adalah sebagai berikut:
+- Tabel 5. Hasil evaluasi MSE data latih dan data test.
     
   |          |      train |        test |
   |----------|------------|-------------| 
@@ -347,7 +347,7 @@ y_pred = nilai prediksi
   | RF       |   0.129931 |    0.502556 |
   | Boosting | 266.088836	| 239.1362665 |
 
-- Hasil evaluasi plot metrik MSE dengan bar chart dapat dilihat pada Gambar 14:
+- Hasil evaluasi plot metrik MSE dengan bar chart dapat dilihat pada Gambar 14.
 
     <p>
       <img src="https://github.com/Arief-netizen/Portofolio-Proyek-DataScience-ML-AI/assets/56224972/4cb8493f-5977-4d07-ad67-dd523f515b11" height="300" >
